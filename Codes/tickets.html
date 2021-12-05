@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body style="background-color:powderblue;">
     <title>Tickets</title>
   </head>
   <body>
     <!--Page title-->
     <header>
-      <h1>Marvel Theme Park - Tickets</h1>
+      <h1> <center> <font size="+5"> Marvel Theme Park - Tickets </font> </center> </h1>
       <!--Logo-->
       <figure>
         <img style="width:150px; height:100px; display:block; margin-left:auto; margin-right:auto;", src="https://media.istockphoto.com/vectors/amusement-park-welcome-emblem-icon-isolated-on-white-vector-id882292248?k=20&m=882292248&s=612x612&w=0&h=F3PXG20eVOi9BRwEvE6bibvexbAAEm1XjkSZkDHIFLk="/>
@@ -17,11 +18,11 @@
     <!--Navigation Tab-->
     <nav>
       <ul>
-        <li style="text-align:center; width:33%; height:50px; background: yellow; display:inline-block;">
+        <li style="text-align:center; width:33%; height:50px; background: crimson; display:inline-block;">
           <a href="index.html">Home</a></li>
-        <li style="text-align:center; width:33%; height:50px; background: yellow; display:inline-block;">
+        <li style="text-align:center; width:33%; height:50px; background: firebrick; display:inline-block;">
           <a href="rides.html">Rides</a></li>
-        <li style="text-align:center; width:33%; height:50px; background: yellow; display:inline-block;">
+        <li style="text-align:center; width:33%; height:50px; background: orangered; display:inline-block;">
           <a href=#otherinfo>Other information</a></li>
       </ul>
     </nav>
@@ -37,12 +38,18 @@
       </article>
     </section>
 
+<!--  Choose date -->
+<label for="date"> <h2> Choose date </h2> </label>
+<input type="date" id="date" name="choose date"
+       value="2021-12-05"
+       min="2021-01-01" max="2023-12-31">
+
 <!-- Ticket Price -->
       <main class="ticketcategory">
         <section style="display:inline-block; width:50%; float:right;">
           <dl>
-            <dt><h3>Adult ticket</h3></dt>
-            <dd>For ages 25 and above</dd>
+            <dt><h2>Adult ticket</h2></dt>
+            <dt>For ages 22 and above</dt>
             <span> Price: <b>$30.00</b> </span>
             <aside>
               <form>
@@ -51,8 +58,8 @@
               </form>
             </aside>
 
-            <dt><h3>Youth ticket</h3></dt>
-            <dd>For ages 14 to 21</dd>
+            <dt><h2>Youth ticket</h2></dt>
+            <dt>For ages 14 to 21</dt>
             <span> Price: <b>$20.00</b> </span>
             <aside>
               <form>
@@ -61,8 +68,8 @@
               </form>
             </aside>
 
-            <dt><h3>Children ticket</h3></dt>
-            <dd>For ages 3 to 13</dd>
+            <dt><h2>Children ticket</h2></dt>
+            <dt>For ages 3 to 13</dt>
             <span> Price: <b>$10.00</b> </span>
             <aside>
               <form>
@@ -79,7 +86,7 @@
           </dl>
         </section>
       </main>
-
+<br>
        <footer id="footer">
         <dl>
           <dt>Contact Us</li>
@@ -117,4 +124,5 @@
 
 
   </body>
+</body>
 </html>
