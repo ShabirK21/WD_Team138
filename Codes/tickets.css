@@ -1,0 +1,53 @@
+/* TicketHeading */
+dl{
+  background-color: #ACD9FF;
+    dt{
+      text-align: center;
+      font-style: bold;
+      font-family: Helvetica, Tahoma, sans-serif;
+      font-weight: bolder;
+      color: black;
+    }
+    span{
+    text-align: right;
+    font-family: Helvetica, Tahoma, sans-serif;
+    color: black;
+    }
+}
+
+article{
+  h2,p{
+    text-align: left;
+    font-family: Helvetica, Tahoma, sans-serif;
+    color: black;
+  }
+}
+
+
+
+footer
+{
+  background-color: #8B0000;
+  dt
+  {
+    text-align: left;
+    font-style: italic;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+  }
+  th
+  {
+    text-align: left;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  tr
+  {
+    text-align: left;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    }
+}
