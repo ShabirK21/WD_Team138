@@ -35,26 +35,24 @@ body
 footer
 {
   background-color: #8B0000;
-  dt
-  {
-    text-align: left;
-    font-style: italic;
-    font-family: Tahoma, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: white;
-  }
-  th
-  {
-    text-align: left;
-    font-family: Tahoma, Helvetica, sans-serif;
-    font-weight: bold;
-    color: white;
-  }
-  tr
-  {
-    text-align: left;
-    font-family: Tahoma, Helvetica, sans-serif;
-    font-weight: normal;
-    color: white;
-    }
+  font-style: italic;
+  font-family: Tahoma, Helvetica, sans-serif;
+  color:white;
+  bottom: 0;
+}
+
+.fheader{
+  display: inline-block;
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.flabel{
+  display: inline-block;
+  vertical-align: super;
 }
