@@ -9,7 +9,7 @@ background: lightblue;
 
 /* Navigation Bar Styling */
 .main-menu{
-  background-color: #D50010;
+  background-color: #FFFF00;
   background-image: none;
   color: #000;
   border: 1px black blue;
@@ -56,21 +56,30 @@ footer
   font-style: italic;
   font-family: Tahoma, Helvetica, sans-serif;
   color:white;
-  bottom: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .fheader{
-  display: inline-block;
-  width: 33%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
   text-align: center;
-  align-items: center;
+  margin-left: 10;
+  margin-right: auto;
 }
 
-.flabel{
+#fheader2 figure img{
   display: inline-block;
-  vertical-align: super;
+  width: 2%;
+  height: 2%;
 }
+
+#fheader3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#fheader3 figure img{
+  width:100%;
+  height:50%;
+}
+/* End of Footer Styling*/
