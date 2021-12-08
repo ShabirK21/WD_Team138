@@ -1,67 +1,51 @@
 
-body
-{
-background: lightblue;
-
-header
-{
-  h1
-  {
-    text-align: center;
-    font-family: Tahoma, Helvetica, sans-serif;
-    font-weight: bold;
-    color: white;
-  }
+*{
+  font-family: Tahoma Helvetica sans-serif;
 }
 
-  #awardsReviews
-  {
-    dt
-    {
-      text-align: left;
-      font-style: italic;
-      font-family: Tahoma, Helvetica, sans-serif;
-      font-weight: bold;
-      color: white;
-      background-color: #8B0000;
-    }
-    dd
-    {
-      text-align: left;
-      font-family: Tahoma, Helvetica, sans-serif;
-      font-weight:normal;
-      color: white;
-      background-color: #8B0000;
-    }
-  }
+body{
+background: lightblue;
 }
 
 /* Navigation Bar Styling */
-header{
+.main-menu{
+  background-color: #D50010;
+  background-image: none;
+  color: #000;
+  border: 1px black blue;
+  position: relative;
+  z-index: 1;
+  height:100px;
+}
+
+.NB figure a img{
+  width:150px;
+  padding: 15px 2em;
+}
+
+.NB figure{
+  display: flex;
+  justify-content: space-between;
+}
+
+.NB ol{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 2em;
+  position: relative;
+}
+
+.NB ol li{
+   list-style: none;
+   margin-right: 50px;
+   font-weight: bold;
+   font-size: 1.5em;
+}
+
+.NB ol li:hover{
   background-color: red;
-  display: block;
-  position: fixed;
-  width: 100%;
+  cursor: pointer;
 }
-
-.NB figure img{
-  position: static;
-  display: inline-block;
-  width: 20%;
-  height: 20%;
-}
-
-.NB ul{
-  text-align: middle;
-}
-
-.NB ul li{
-  display: inline-block;
-  border: 2px dotted blue;
-  float: right;
-  text-align: center;
-}
-
 
 /*End of Navigation Bar Styling*/
 
