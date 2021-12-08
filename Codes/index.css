@@ -1,11 +1,73 @@
 
 *{
+  padding: 0;
+  margin: 0;
   font-family: Tahoma Helvetica sans-serif;
 }
+
 
 body{
 background: lightblue;
 }
+
+/* Food Information Styling */
+#foodinfo{
+  display: inline-flex;
+  justify-content: flex-end;
+  float: right;
+}
+
+#foodinfo figure img{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  padding: 5px;
+}
+
+.images{
+  position: relative;
+  max-width: 500px;
+}
+
+.images img {width: 100%;}
+
+.text{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.text{
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  margin: auto;
+}
+
+.images:hover .text{
+  visibility: visible;
+  opacity: 1;
+}
+
+/* End of Food Information Styling */
+/* Promotions Styling */
+#promo section figure img{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  padding: 5px;
+
+}
+/* End of Promotions Styling */
 
 /* Navigation Bar Styling */
 .main-menu{
@@ -31,8 +93,9 @@ background: lightblue;
 .NB ol{
   display: flex;
   justify-content: flex-end;
-  padding: 10px 2em;
+  padding: 30px 2em;
   position: relative;
+
 }
 
 .NB ol li{
