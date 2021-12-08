@@ -88,30 +88,7 @@ label[for="date"]{
 /*End of Navigation Bar Styling*/
 
 /* Footer Stylying */
-footer {
-    background-color: #8B0000;
-    clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -200px;
-    font-style: italic;
-    font-family: Tahoma, Helvetica, sans-serif;
-    color: white;
-  }
-
-
-.fheader{
-  display: inline-block;
-  width: 33%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  text-align: center;
-  align-items: center;
+footer{
+  bottom: 0; 
 }
-
-.flabel{
-  display: inline-block;
-  vertical-align: super;
-}
+/* End of Footer Styling
