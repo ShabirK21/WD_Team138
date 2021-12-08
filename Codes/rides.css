@@ -1,5 +1,5 @@
 body {
- background-image: url("..Images/28-287385_avengers-wallpaper-for-laptop.jpg");
+ background-image: url("../Images/wp3633569.jpg");
   background-repeat: repeat-y; /* Do not repeat the image */
   background-size: contain; /* Resize the background image to cover the entire container */
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .column:hover .image {
-  opacity: 0.4;
+  opacity: 0.8;
 }
 
 .column:hover .middle {
@@ -42,8 +42,10 @@ body {
 }
 
 .text {
-  /*background-color: white;*/
-  color: black;
+  //background-color: grey;
+  opacity: 1;
+  color: white;
+  text-shadow: 2px 2px 4px black;
   font-size: 16px;
   padding: 16px 32px;
 }
