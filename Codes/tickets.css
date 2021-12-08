@@ -1,53 +1,83 @@
-/* TicketHeading */
-dl{
-  background-color: #ACD9FF;
-    dt{
-      text-align: center;
-      font-style: bold;
-      font-family: Helvetica, Tahoma, sans-serif;
-      font-weight: bolder;
-      color: black;
-    }
-    span{
-    text-align: right;
-    font-family: Helvetica, Tahoma, sans-serif;
-    color: black;
-    }
+body{
+  background: lightblue;
 }
 
-article{
-  h2,p{
-    text-align: left;
-    font-family: Helvetica, Tahoma, sans-serif;
-    color: black;
-  }
+/* TicketCategory */
+.ticketcategory{
+   text-align: center;
+   /* margin-right: 250px; */
+   font-family: Helvetica, Tahoma, sans-serif;
+   color: black;
+}
+
+/* Position of TicketCategory */
+dt{
+  text-align: left;
+  padding-left: 40px;
+}
+
+/* Position of TicketPrice */
+span{
+  position: relative;
+  /* left:100px; */
+  bottom: 22px;
+}
+
+/* Input boxes Design */
+input[type="date"], input[id="Quantity"]{
+  height: 20px;
+  align-items: center;
+}
+
+/* Calendar position */
+input[type="date"]{
+  position: relative;
+  left: 450px;
 }
 
 
+label[for="date"]{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+  width: 570px;
+}
 
-footer
-{
-  background-color: #8B0000;
-  dt
-  {
-    text-align: left;
+/* Navigation bar styling */
+.Nb ul li{
+  text-align: center;
+  display:inline-block;
+  width:33%;
+  height:3em;
+  background-color:	#1E90FF;
+}
+
+/* Footer Stylying */
+footer {
+    background-color: #8B0000;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
     font-style: italic;
     font-family: Tahoma, Helvetica, sans-serif;
-    font-weight: bolder;
     color: white;
   }
-  th
-  {
-    text-align: left;
-    font-family: Tahoma, Helvetica, sans-serif;
-    font-weight: bold;
-    color: white;
-  }
-  tr
-  {
-    text-align: left;
-    font-family: Tahoma, Helvetica, sans-serif;
-    font-weight: normal;
-    color: white;
-    }
+
+
+.fheader{
+  display: inline-block;
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.flabel{
+  display: inline-block;
+  vertical-align: super;
 }
