@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 
 body
 {
@@ -30,14 +33,26 @@ h1
  width: 180px;
 }
 /* Navigation Bar Styling */
+<<<<<<< HEAD
 .Nb ul li
 {
   text-align: center;
+=======
+.NB{
+  width:100%;
+}
+
+.NB figure img{
+  display: inline-block;
+  width: ;
+}
+
+.NB ul li{
+>>>>>>> d10fb3718c20214292c4d91a4d92f6f683a7b413
   display:inline-block;
-  width:33%;
-  height:3em;
   background-color:	#1E90FF;
 }
+/*End of Navigation Bar Styling*/
 
 /* Footer Styling */
 footer
