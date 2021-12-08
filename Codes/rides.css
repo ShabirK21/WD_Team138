@@ -1,5 +1,7 @@
 body {
-  background: lightblue;
+ background-image: url("..Images/28-287385_avengers-wallpaper-for-laptop.jpg");
+  background-repeat: repeat-y; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
 }
 * {
   box-sizing: border-box;
