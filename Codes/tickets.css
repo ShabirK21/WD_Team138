@@ -87,8 +87,18 @@ label[for="date"]{
 
 /*End of Navigation Bar Styling*/
 
+/*Price summary*/
+.summary{
+  border: 1px solid black;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+
 /* Footer Stylying */
 footer{
-  bottom: 0; 
+  bottom: 0;
 }
 /* End of Footer Styling
