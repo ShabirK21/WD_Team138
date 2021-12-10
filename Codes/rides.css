@@ -1,10 +1,13 @@
 body {
- background-image: url("../Images/wp3633569.jpg");
+  background-image: url("../Images/wp3633569.jpg");
   background-repeat: repeat-y; /* Do not repeat the image */
   background-size: contain; /* Resize the background image to cover the entire container */
 }
 * {
   box-sizing: border-box;
+//  padding: 0;
+//  margin: 0;
+  font-family: Tahoma Helvetica sans-serif;
 }
 .column {
   position: relative;
@@ -67,6 +70,7 @@ body {
 
 /* Navigation Bar Styling */
 .main-menu{
+  padding: 0;
   background-color: #FFFF00;
   background-image: none;
   color: #000;
@@ -74,6 +78,8 @@ body {
   position: relative;
   z-index: 1;
   height:100px;
+  position: sticky;
+  top: 0;
 }
 
 .NB figure a img{

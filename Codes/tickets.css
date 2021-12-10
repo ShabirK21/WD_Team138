@@ -54,6 +54,8 @@ label[for="date"]{
   position: relative;
   z-index: 1;
   height:100px;
+  position: sticky;
+  top: 0;
 }
 
 .NB figure a img{
@@ -84,6 +86,7 @@ label[for="date"]{
   background-color: red;
   cursor: pointer;
 }
+
 
 /*End of Navigation Bar Styling*/
 
