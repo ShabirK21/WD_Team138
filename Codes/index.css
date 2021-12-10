@@ -23,7 +23,7 @@ h1
   font-weight: bold;
 }
 
-/* Food Information Styling */
+/* Food Information Styling *///////////////////////////////////////////////////////////////
 #foodinfo
 {
   display: inline-flex;
@@ -76,7 +76,7 @@ h1
   opacity: 1;
 }
 
-/* End of Food Information Styling */
+/* End of Food Information Styling */////////////////////////////////////////////////////////
 /* Promotions Styling */
 #promo section figure img
 {
