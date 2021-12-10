@@ -45,39 +45,60 @@ label[for="date"]{
 }
 
 /* Navigation bar styling */
-.Nb ul li{
-  text-align: center;
-  display:inline-block;
-  width:33%;
-  height:3em;
-  background-color:	#1E90FF;
+/* Navigation Bar Styling */
+.main-menu{
+  background-color: #FFFF00;
+  background-image: none;
+  color: #000;
+  border: 1px black blue;
+  position: relative;
+  z-index: 1;
+  height:100px;
 }
+
+.NB figure a img{
+  width:40%;
+  padding: 15px 2em;
+}
+
+.NB figure{
+  display: flex;
+  justify-content: space-between;
+}
+
+.NB ol{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 2em;
+  position: relative;
+}
+
+.NB ol li{
+   list-style: none;
+   margin-right: 50px;
+   font-weight: bold;
+   font-size: 1.5em;
+}
+
+.NB ol li:hover{
+  background-color: red;
+  cursor: pointer;
+}
+
+/*End of Navigation Bar Styling*/
+
+/*Price summary*/
+.summary{
+  border: 1px solid black;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
 
 /* Footer Stylying */
-footer {
-    background-color: #8B0000;
-    clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -200px;
-    font-style: italic;
-    font-family: Tahoma, Helvetica, sans-serif;
-    color: white;
-  }
-
-
-.fheader{
-  display: inline-block;
-  width: 33%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  text-align: center;
-  align-items: center;
+footer{
+  bottom: 0;
 }
-
-.flabel{
-  display: inline-block;
-  vertical-align: super;
-}
+/* End of Footer Styling
