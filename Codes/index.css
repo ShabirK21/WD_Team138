@@ -1,23 +1,25 @@
 
-*{
+*
+{
   padding: 0;
   margin: 0;
   font-family: Tahoma Helvetica sans-serif;
 }
-
-
-body{
+body
+{
 background: lightblue;
 }
 
 /* Food Information Styling */
-#foodinfo{
+#foodinfo
+{
   display: inline-flex;
   justify-content: flex-end;
   float: right;
 }
 
-#foodinfo figure img{
+#foodinfo figure img
+{
   box-sizing: border-box;
   display: inline-block;
   width: 100%;
@@ -25,14 +27,16 @@ background: lightblue;
   padding: 5px;
 }
 
-.images{
+.images
+{
   position: relative;
   max-width: 500px;
 }
 
 .images img {width: 100%;}
 
-.text{
+.text
+{
   box-sizing: border-box;
   width: 100%;
   height: 100%;
@@ -45,7 +49,8 @@ background: lightblue;
   line-height: 1.5;
 }
 
-.text{
+.text
+{
   visibility: none;
   opacity: 0;
   transition: opacity 0.3s;
@@ -56,21 +61,23 @@ background: lightblue;
   visibility: visible;
   opacity: 1;
 }
-
 /* End of Food Information Styling */
+
+
 /* Promotions Styling */
-#promo section figure img{
+#promo section figure img
+{
   box-sizing: border-box;
   display: inline-block;
   width: 500px;
   height: 500px;
   padding: 5px;
-
 }
 /* End of Promotions Styling */
 
 /* Navigation Bar Styling */
-.main-menu{
+.main-menu
+{
   background-color: #FFFF00;
   background-image: none;
   color: #000;
@@ -82,18 +89,20 @@ background: lightblue;
   top: 0;
 }
 
-.NB figure a img{
+.NB figure a img
+{
   width:50%;
   height: 92%;
-
 }
 
-.NB figure{
+.NB figure
+{
   display: flex;
   justify-content: space-between;
 }
 
-.NB ol{
+.NB ol
+{
   display: flex;
   justify-content: flex-end;
   padding: 20px 2em;
@@ -101,37 +110,45 @@ background: lightblue;
 
 }
 
-.NB ol li{
+.NB ol li
+{
    list-style: none;
    margin-right: 50px;
    font-weight: bold;
    font-size: 1.5em;
 }
 
-.NB ol li:hover{
+.NB ol li:hover
+{
   background-color: red;
   cursor: pointer;
 }
+/*End of navigation bar styling*/
+
 
 /* Footer */
-
-#footer{
+#footer
+{
   background-color: darkred;
   color: antiquewhite;
   text-align: center;
 }
-.footer-sub{
+
+.footer-sub
+{
   display: inline-block;
   width: 30%;
   margin: auto;
 }
 
-#socialmedialinks dd img{
+#socialmedialinks dd img
+{
   width: 8%;
   height: 8%;
 }
 
-#location dd img{
+#location dd img
+{
   width: 200px;
   height: 100px;
 }
