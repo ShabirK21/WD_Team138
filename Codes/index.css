@@ -118,6 +118,18 @@ h2
 /* End of Promotions Styling */
 
 /* Awards and reviews Styling */
+dt
+{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+dd
+{
+  font-size: 25px;
+  text-align: center;
+}
+
 /* #awardsReviews figure img
 {
   box-sizing: border-box;
