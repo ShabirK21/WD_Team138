@@ -73,6 +73,20 @@ background: lightblue;
   height: 500px;
   padding: 5px;
 }
+
+.promoImg
+{
+  position: relative;
+  max-width: 50px;
+}
+.promoImg
+{
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+
+
+}
 /* End of Promotions Styling */
 
 /* Navigation Bar Styling */
