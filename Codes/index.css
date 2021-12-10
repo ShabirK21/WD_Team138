@@ -43,7 +43,7 @@ h1
 .images
 {
   position: relative;
-  max-width: 500px;
+  max-width: 300px;
 }
 
 .images img {width: 100%;}
@@ -85,8 +85,19 @@ h1
   width: 500px;
   height: 500px;
   padding: 5px;
-
 }
+.promoImg
+{
+  position: relative;
+  max-width: 100px;
+}
+.promoImg img {width: 100%;}
+.promoImg:hover .text
+{
+  visibility: visible;
+  opacity: 1;
+}
+
 /* End of Promotions Styling */
 
 /* Navigation Bar Styling */
