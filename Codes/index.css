@@ -113,44 +113,7 @@ background: lightblue;
   cursor: pointer;
 }
 
-
-/*End of Navigation Bar Styling*/
-
-/* Footer Styling
-footer
-{
-  background-color: #8B0000;
-  font-style: italic;
-  font-family: Tahoma, Helvetica, sans-serif;
-  color:white;
-  display: flex;
-  justify-content: space-between;
-
-}
-
-.fheader{
-  text-align: center;
-  margin-left: 10;
-  margin-right: auto;
-}
-
-#fheader2 figure img{
-  display: inline-block;
-  width: 2%;
-  height: 2%;
-}
-
-#fheader3{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-#fheader3 figure img{
-  width:100%;
-  height:50%;
-}
-/* End of Footer Styling*/
+/* Footer */
 
 #footer{
   background-color: darkred;
@@ -162,8 +125,6 @@ footer
   width: 30%;
   margin: auto;
 }
-
-
 
 #socialmedialinks dd img{
   width: 8%;

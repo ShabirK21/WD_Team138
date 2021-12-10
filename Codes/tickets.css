@@ -53,7 +53,27 @@ label[for="date"]{
   width: 570px;
 }
 
-/* Navigation bar styling */
+/* Ticket Info */
+.main-ticketinfo{
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+.main-ticketinfo figure img{
+  width: 25%;
+  height: 150px;
+  margin: 5px;
+  padding-left: 300px;
+}
+
+.ticketinfo{
+  margin: 10px;
+}
+
+.ticketinfo p{
+  margin: 5px;
+}
 /* Navigation Bar Styling */
 .main-menu{
   background-color: #FFFF00;
@@ -68,9 +88,8 @@ label[for="date"]{
 }
 
 .NB figure a img{
-  width:40%;
-  height: 70%;
-  padding: 5px 1em;
+  width:50%;
+  height: 92%;
 }
 
 .NB figure{
@@ -112,7 +131,5 @@ label[for="date"]{
 
 
 /* Footer Stylying */
-footer{
-  bottom: 0;
-}
+
 /* End of Footer Styling
