@@ -5,8 +5,8 @@ body {
 }
 * {
   box-sizing: border-box;
-//  padding: 0;
-//  margin: 0;
+  padding: 0;
+  margin: 0;
   font-family: Tahoma Helvetica sans-serif;
 }
 .column {
@@ -70,21 +70,21 @@ body {
 
 /* Navigation Bar Styling */
 .main-menu{
-  padding: 0;
   background-color: #FFFF00;
   background-image: none;
   color: #000;
   border: 1px black blue;
   position: relative;
   z-index: 1;
-  height:100px;
+  height:70px;
   position: sticky;
   top: 0;
 }
 
 .NB figure a img{
-  width:60%;
-  padding: 15px 2em;
+  width:40%;
+  height: 100%;
+  padding: 5px 1em;
 }
 
 .NB figure{
@@ -95,8 +95,9 @@ body {
 .NB ol{
   display: flex;
   justify-content: flex-end;
-  padding: 10px 2em;
+  padding: 20px 2em;
   position: relative;
+
 }
 
 .NB ol li{

@@ -77,14 +77,15 @@ background: lightblue;
   border: 1px black blue;
   position: relative;
   z-index: 1;
-  height:100px;
+  height:70px;
   position: sticky;
   top: 0;
 }
 
 .NB figure a img{
   width:40%;
-  padding: 15px 2em;
+  height: 70%;
+  padding: 5px 1em;
 }
 
 .NB figure{
@@ -95,7 +96,7 @@ background: lightblue;
 .NB ol{
   display: flex;
   justify-content: flex-end;
-  padding: 30px 2em;
+  padding: 20px 2em;
   position: relative;
 
 }
