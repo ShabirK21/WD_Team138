@@ -10,6 +10,10 @@ body{
    color: black;
 }
 
+span b{
+  color: red;
+}
+
 /* Position of TicketCategory */
 dt{
   text-align: left;
