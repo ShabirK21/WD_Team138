@@ -65,29 +65,76 @@ background: lightblue;
 
 
 /* Promotions Styling */
-#promo section figure img
+h2
+{
+  text-align: center;
+}
+
+#promo figure img
 {
   box-sizing: border-box;
   display: inline-block;
-  width: 500px;
-  height: 500px;
+  width: 50%;
+  height: 150px;
   padding: 5px;
 }
 
 .promoImg
 {
   position: relative;
-  max-width: 50px;
+  max-width: 500px;
 }
-.promoImg
+
+.promoImg img {width: 100%;}
+
+.promoText
 {
-  padding: 0 6px;
-  float: left;
-  width: 25%;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 50px;
+  text-align: center;
+  line-height: 1
+  ;
+}
 
+.promoText
+{
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  margin: auto;
+}
 
+.promoImg:hover .promoText{
+  visibility: visible;
+  opacity: 1;
 }
 /* End of Promotions Styling */
+
+/* Awards and reviews Styling */
+/* #awardsReviews figure img
+{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+  height: 150px;
+  padding: 5px;
+}
+
+.reviews
+{
+  position: relative;
+  max-width: 500px;
+}
+
+.reviews img {width: 100%;} */
+/* End of awards and reviews Styling */
 
 /* Navigation Bar Styling */
 .main-menu
