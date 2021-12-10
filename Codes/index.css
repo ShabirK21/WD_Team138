@@ -1,57 +1,115 @@
+
 *{
-  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Tahoma Helvetica sans-serif;
 }
 
-body
-{
+
+body{
 background: lightblue;
 }
 
-h1
-{
-  text-align: center;
-  font-family: Tahoma, Helvetica, sans-serif;
-  font-weight: bold;
-  color: black;
+/* Food Information Styling */
+#foodinfo{
+  display: inline-flex;
+  justify-content: flex-end;
+  float: right;
 }
 
-/* awards and reviews*/
-#awardsReviews dt dd
-{
-  text-align: center;
-  font-family: Tahoma, Helvetica, sans-serif;
-  font-weight: bold;
-  color: white;
-  background-color: #8B0000;
-}
-
-.foodinfo
-{
-  margin: 55px;
- border: 1px solid #ccc;
- float: left;
- width: 180px;
-}
-/* Navigation Bar Styling */
-<<<<<<< HEAD
-.Nb ul li
-{
-  text-align: center;
-=======
-.NB{
-  width:100%;
-}
-
-.NB figure img{
+#foodinfo figure img{
+  box-sizing: border-box;
   display: inline-block;
-  width: ;
+  width: 100%;
+  height: 300px;
+  padding: 5px;
 }
 
-.NB ul li{
->>>>>>> d10fb3718c20214292c4d91a4d92f6f683a7b413
-  display:inline-block;
-  background-color:	#1E90FF;
+.images{
+  position: relative;
+  max-width: 500px;
 }
+
+.images img {width: 100%;}
+
+.text{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.text{
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  margin: auto;
+}
+
+.images:hover .text{
+  visibility: visible;
+  opacity: 1;
+}
+
+/* End of Food Information Styling */
+/* Promotions Styling */
+#promo section figure img{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  padding: 5px;
+
+}
+/* End of Promotions Styling */
+
+/* Navigation Bar Styling */
+.main-menu{
+  background-color: #FFFF00;
+  background-image: none;
+  color: #000;
+  border: 1px black blue;
+  position: relative;
+  z-index: 1;
+  height:100px;
+}
+
+.NB figure a img{
+  width:40%;
+  padding: 15px 2em;
+}
+
+.NB figure{
+  display: flex;
+  justify-content: space-between;
+}
+
+.NB ol{
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 2em;
+  position: relative;
+
+}
+
+.NB ol li{
+   list-style: none;
+   margin-right: 50px;
+   font-weight: bold;
+   font-size: 1.5em;
+}
+
+.NB ol li:hover{
+  background-color: red;
+  cursor: pointer;
+}
+
 /*End of Navigation Bar Styling*/
 
 /* Footer Styling */
@@ -61,23 +119,30 @@ footer
   font-style: italic;
   font-family: Tahoma, Helvetica, sans-serif;
   color:white;
-  bottom: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
-.fheader
-{
-  display: inline-block;
-  width: 33%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+.fheader{
   text-align: center;
-  align-items: center;
+  margin-left: 10;
+  margin-right: auto;
 }
 
-.flabel
-{
+#fheader2 figure img{
   display: inline-block;
-  vertical-align: super;
+  width: 2%;
+  height: 2%;
 }
+
+#fheader3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#fheader3 figure img{
+  width:100%;
+  height:50%;
+}
+/* End of Footer Styling*/
