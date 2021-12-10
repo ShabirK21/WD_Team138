@@ -1,26 +1,38 @@
-*{
+*
+{
   box-sizing: border-box;
 }
 
-*{
+*
+{
   padding: 0;
   margin: 0;
   font-family: Tahoma Helvetica sans-serif;
 }
 
 
-body{
+body
+{
 background: lightblue;
 }
 
+h1
+{
+  text-align: center;
+  font-family: Helvetica, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
 /* Food Information Styling */
-#foodinfo{
+#foodinfo
+{
   display: inline-flex;
   justify-content: flex-end;
   float: right;
 }
 
-#foodinfo figure img{
+#foodinfo figure img
+{
   box-sizing: border-box;
   display: inline-block;
   width: 100%;
@@ -28,14 +40,16 @@ background: lightblue;
   padding: 5px;
 }
 
-.images{
+.images
+{
   position: relative;
   max-width: 500px;
 }
 
 .images img {width: 100%;}
 
-.text{
+.text
+{
   box-sizing: border-box;
   width: 100%;
   height: 100%;
@@ -48,21 +62,24 @@ background: lightblue;
   line-height: 1.5;
 }
 
-.text{
+.text
+{
   visibility: none;
   opacity: 0;
   transition: opacity 0.3s;
   margin: auto;
 }
 
-.images:hover .text{
+.images:hover .text
+{
   visibility: visible;
   opacity: 1;
 }
 
 /* End of Food Information Styling */
 /* Promotions Styling */
-#promo section figure img{
+#promo section figure img
+{
   box-sizing: border-box;
   display: inline-block;
   width: 500px;
@@ -80,7 +97,8 @@ background: lightblue;
   display:inline-block;
   background-color:	#1E90FF;
 =======
-.main-menu{
+.main-menu
+{
   background-color: #FFFF00;
   background-image: none;
   color: #000;
@@ -90,19 +108,22 @@ background: lightblue;
   height:100px;
 }
 
-.NB figure a img{
+.NB figure a img
+{
   width:40%;
   padding: 15px 2em;
 }
 
-.NB figure{
+.NB figure
+{
   display: flex;
   justify-content: space-between;
 >>>>>>> 436b54196024ce61e9cc7ad4855d5eda87ac8d6a
 }
 /*End of Navigation Bar Styling*/
 
-.NB ol{
+.NB ol
+{
   display: flex;
   justify-content: flex-end;
   padding: 30px 2em;
@@ -110,20 +131,37 @@ background: lightblue;
 
 }
 
-.NB ol li{
+.NB ol li
+{
    list-style: none;
    margin-right: 50px;
    font-weight: bold;
    font-size: 1.5em;
 }
 
-.NB ol li:hover{
+.NB ol li:hover
+{
   background-color: red;
   cursor: pointer;
 }
 
 /*End of Navigation Bar Styling*/
 
+/* Awards styling*/
+#awardsReviews p
+{
+  text-align: left;
+  font-family: Helvetica, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 100px
+
+  background-color: white;
+  width: 300px
+  border; 15px, black;
+  padding: 50px;
+  margin: 20px;
+}
+/*End of awards styling*/
 /* Footer Styling */
 footer
 {
@@ -135,25 +173,29 @@ footer
   justify-content: space-between;
 }
 
-.fheader{
+.fheader
+{
   text-align: center;
   margin-left: 10;
   margin-right: auto;
 }
 
-#fheader2 figure img{
+#fheader2 figure img
+{
   display: inline-block;
   width: 2%;
   height: 2%;
 }
 
-#fheader3{
+#fheader3
+{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-#fheader3 figure img{
+#fheader3 figure img
+{
   width:100%;
   height:50%;
 }
