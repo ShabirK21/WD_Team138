@@ -55,9 +55,13 @@ label[for="date"]{
 
 /* Ticket Info */
 .main-ticketinfo{
+  background-color: aquamarine;
   display: inline-block;
   width: 50%;
   float: left;
+  border-radius: 10px;
+  margin-top: 5px;
+
 }
 
 .main-ticketinfo figure img{
@@ -128,6 +132,9 @@ label[for="date"]{
   margin-left: 20px;
 }
 
+.js{
+  padding-left: 300px;
+}
 
 
 /* Footer Stylying */

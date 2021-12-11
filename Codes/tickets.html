@@ -63,8 +63,8 @@
             <span> Price: <b>$30.00</b> </span>
             <aside>
               <form>
-                <label for: "Quantity" Number of Adults </label>
-                <input id="Quantity" name="people" type="number" min="0" max="5" step="1">
+                <label for: "QuantityA" Number of Adults </label>
+                <input id="QuantityA" name="people" type="number" min="0" max="5" step="1" onchange="total_adult(); all_total();">
               </form>
             </aside>
 
@@ -73,8 +73,8 @@
             <span> Price: <b>$20.00</b> </span>
             <aside>
               <form>
-                <label for: "Quantity" Number of Youths </label>
-                <input id="Quantity" name="people" type="number" min="0" max="5" step="1">
+                <label for: "QuantityY" Number of Youths </label>
+                <input id="QuantityY" name="people" type="number" min="0" max="5" step="1" onchange="total_youth(); all_total();">
               </form>
             </aside>
 
@@ -83,17 +83,33 @@
             <span> Price: <b>$10.00</b> </span>
             <aside>
               <form>
-                <label for: "Quantity" Number of Children </label>
-                <input id="Quantity" name="people" type="number" min="0" max="5" step="1">
+                <label for: "QuantityC" Number of Children </label>
+                <input id="QuantityC" name="people" type="number" min="0" max="5" step="1" onchange="total_children(); all_total();">
               </form>
             </aside>
 
             <div class="summary">
-            <dt><h3>Ticket Summary</h3></dt>
-            <dt><p>Adult Tickets</p><dt>
-            <dt><p>Youth Tickets</p><dt>
-            <dt><p>Children Tickets</p><dt>
-            <dt><p>Total</p><dt>
+              <table >
+                <tr>
+                  <th>Ticket Summary</th>
+                </tr>
+                <tr>
+                  <td>Adult Tickets</td>
+                  <td class="js" id="adult_total"></td>
+                </tr>
+                <tr>
+                  <td>Youth Tickets</td>
+                  <td class="js" id="youth_total"></td>
+                </tr>
+                <tr>
+                  <td>Children Tickets</td>
+                  <td class="js" id="children_total"></td>
+                </tr>
+                <tr>
+                  <th>Total Cost</th>
+                  <td class="js" id="all_total"></td>
+                </tr>
+              </table>
             </div>
 
             <aside>
@@ -116,8 +132,8 @@
           </dl>
         </section>
       </main>
-
+    <script src="rides.js"></script>
   </body>
 
-  
+
 </html>
