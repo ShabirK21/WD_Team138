@@ -1,0 +1,227 @@
+
+*
+{
+  padding: 0;
+  margin: 0;
+  font-family: Tahoma Helvetica sans-serif;
+}
+body
+{
+background: lightblue;
+}
+
+/* Food Information Styling */
+#foodinfo
+{
+  display: inline-flex;
+  justify-content: flex-end;
+  float: right;
+}
+
+#foodinfo figure img
+{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  padding: 5px;
+}
+
+.images
+{
+  position: relative;
+  max-width: 500px;
+}
+
+.images img {width: 100%;}
+
+.text
+{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.text
+{
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  margin: auto;
+}
+
+.images:hover .text{
+  visibility: visible;
+  opacity: 1;
+}
+/* End of Food Information Styling */
+
+
+/* Promotions Styling */
+h2
+{
+  text-align: center;
+}
+
+#promo figure img
+{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+  height: 150px;
+  padding: 5px;
+}
+
+.promoImg
+{
+  position: relative;
+  max-width: 500px;
+}
+
+.promoImg img {width: 100%;}
+
+.promoText
+{
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 50px;
+  text-align: center;
+  line-height: 1
+  ;
+}
+
+.promoText
+{
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  margin: auto;
+}
+
+.promoImg:hover .promoText{
+  visibility: visible;
+  opacity: 1;
+}
+/* End of Promotions Styling */
+
+/* Awards and reviews Styling */
+dt
+{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+dd
+{
+  font-size: 25px;
+  text-align: center;
+}
+
+/* #awardsReviews figure img
+{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+  height: 150px;
+  padding: 5px;
+}
+
+.reviews
+{
+  position: relative;
+  max-width: 500px;
+}
+
+.reviews img {width: 100%;} */
+/* End of awards and reviews Styling */
+
+/* Navigation Bar Styling */
+.main-menu
+{
+  background-color: #FFFF00;
+  background-image: none;
+  color: #000;
+  border: 1px black blue;
+  position: relative;
+  z-index: 1;
+  height:70px;
+  position: sticky;
+  top: 0;
+}
+
+.NB figure a img
+{
+  width:50%;
+  height: 92%;
+}
+
+.NB figure
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.NB ol
+{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 2em;
+  position: relative;
+
+}
+
+.NB ol li
+{
+   list-style: none;
+   margin-right: 50px;
+   font-weight: bold;
+   font-size: 1.5em;
+}
+
+.NB ol li:hover
+{
+  background-color: red;
+  cursor: pointer;
+}
+/*End of navigation bar styling*/
+
+
+/* Footer */
+#footer
+{
+  background-color: darkred;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.footer-sub
+{
+  display: inline-block;
+  width: 30%;
+  margin: auto;
+}
+
+#socialmedialinks dd img
+{
+  width: 8%;
+  height: 8%;
+}
+
+#location dd img
+{
+  width: 200px;
+  height: 100px;
+}

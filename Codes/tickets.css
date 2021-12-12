@@ -1,0 +1,142 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: lightblue;
+}
+
+/* TicketCategory */
+.ticketcategory{
+   text-align: center;
+   /* margin-right: 250px; */
+   font-family: Helvetica, Tahoma, sans-serif;
+   color: black;
+}
+
+span b{
+  color: red;
+}
+
+/* Position of TicketCategory */
+dt{
+  text-align: left;
+  padding-left: 40px;
+}
+
+/* Position of TicketPrice */
+span{
+  position: relative;
+  /* left:100px; */
+  bottom: 22px;
+}
+
+/* Input boxes Design */
+input[type="date"], input[id="Quantity"]{
+  height: 20px;
+  align-items: center;
+}
+
+/* Calendar position */
+input[type="date"]{
+  position: relative;
+  left: 450px;
+}
+
+
+label[for="date"]{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+  width: 570px;
+}
+
+/* Ticket Info */
+.main-ticketinfo{
+  background-color: aquamarine;
+  display: inline-block;
+  width: 50%;
+  float: left;
+  border-radius: 10px;
+  margin-top: 5px;
+
+}
+
+.main-ticketinfo figure img{
+  width: 25%;
+  height: 150px;
+  margin: 5px;
+  padding-left: 300px;
+}
+
+.ticketinfo{
+  margin: 10px;
+}
+
+.ticketinfo p{
+  margin: 5px;
+}
+/* Navigation Bar Styling */
+.main-menu{
+  background-color: #FFFF00;
+  background-image: none;
+  color: #000;
+  border: 1px black blue;
+  position: relative;
+  z-index: 1;
+  height:70px;
+  position: sticky;
+  top: 0;
+}
+
+.NB figure a img{
+  width:50%;
+  height: 92%;
+}
+
+.NB figure{
+  display: flex;
+  justify-content: space-between;
+}
+
+.NB ol{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 2em;
+  position: relative;
+
+}
+
+.NB ol li{
+   list-style: none;
+   margin-right: 70px;
+   font-weight: bold;
+   font-size: 1.5em;
+}
+
+.NB ol li:hover{
+  background-color: red;
+  cursor: pointer;
+}
+
+
+/*End of Navigation Bar Styling*/
+
+/*Price summary*/
+.summary{
+  border: 1px solid black;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.js{
+  padding-left: 300px;
+}
+
+
+/* Footer Stylying */
+
+/* End of Footer Styling

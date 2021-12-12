@@ -4,31 +4,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="/index.css"/>
-    <title>Theme Park Main Page</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Marvel Parks</title>
   </head>
 
   <body>
-
-  <header>
-      <h1> Marvel Theme Park - Home </h1>
-      <!--Insert logo picture here-->
-      <figure>
-        <img style="width:150px; height:100px; display:block; margin-left:auto; margin-right:auto;", src="https://media.istockphoto.com/vectors/amusement-park-welcome-emblem-icon-isolated-on-white-vector-id882292248?k=20&m=882292248&s=612x612&w=0&h=F3PXG20eVOi9BRwEvE6bibvexbAAEm1XjkSZkDHIFLk="/>
-      </figure>
-  </header>
-
-    <!--Navigation bar located at top of page-->
-    <nav>
-      <ul>
-        <li style="text-align: center; display:inline-block; width:33%; height:50px; background-color:yellow;">
-          <a href="rides.html">Rides</a></li>
-        <li style="text-align: center; display:inline-block; width:33%; height:50px; background-color:yellow;">
-          <a href="tickets.html">Tickets</a></li>
-        <li style="text-align: center; display:inline-block; width:33%; height:50px; background-color:yellow;">
-          <a href=#footer>Other information</a></li>
-      </ul>
-    </nav>
+    <!--Navigation bar-->
+    <header class="main-menu">
+      <nav class="NB">
+        <figure>
+          <a href="index.html" class="main-menu-logo">
+            <img src="../Images/Marvel_Studios_logo.png" alt="Marvel Theme Park">
+          </a>
+        <figure>
+        <ol>
+          <li><a href="rides.html">Rides</a></li>
+          <li><a href=#footer>Other Information</a></li>
+          <li><a href="tickets.html">Book Now</a></li>
+        </ol>
+      </nav>
+    </header>
 
     <!--Picture Slider-->
     <section id="imageSlider">
@@ -40,64 +35,85 @@
       </figure>
     </section>
 
-    <!--Promotions-->
-    <aside class="Promotions">
-    </aside>
-
-    <main>
-
       <!--Food Information-->
-      <section id="foodinfo">
-        <!--Hovering over image will display a description of Restaurant-->
-        <!--Images will be in a grid of 4(Done in CSS)-->
-            <figure>
-              <img style="height: 500px; float:right; width:49%; display:inline-block" src="https://www.themeparkinsider.com/photos/images/IMG_8163.JPG"/>
-              <!--<figcaption style="position:absolute; float:right;">Restaurant 1</figcaption>-->
-            </figure>
-            <figure>
-              <img style="height: 500px; width:50%; display:inline-block" src="https://media-cdn.tripadvisor.com/media/photo-s/17/04/f1/6d/exterior.jpg"/>
-              <!--<figcaption style="position:absolute;">Restaurant 2</figcaption>-->
-            </figure>
-            <figure>
-              <img style="height: 500px; float:right; width:49%; display:inline-block" src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FmZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"/>
-              <!--<figcaption>Cafe 1</figcaption>-->
-            </figure>
-            <figure>
-              <img style="height: 500px; width:50%; display:inline-block" src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNhZmV8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"/>
-              <!--<figcaption>Cafe 2</figcaption>-->
-            </figure>
+    <article id="foodinfo">
+      <section>
+        <h2>Restaurants and cafes</h2>
+        <figure class="images">
+          <img src="../Images/R1.jpg"/>
+          <figcaption class="text">A bar serving delicious cocktails<figcaption>
+        </figure>
+        <figure class="images">
+          <img src="../Images/R2.jpg"/>
+          <figcaption class="text">A<figcaption>
+        </figure>
       </section>
+      <section>
+        <figure class="images">
+          <img src="../Images/R3.jpg"/>
+          <figcaption class="text">Enjoy A Delicious Martini<figcaption>
+        </figure>
+        <figure class="images">
+          <img src="../Images/R4.jpg"/>
+          <figcaption class="text">Enjoy A Delicious Martini<figcaption>
+        </figure>
+      </section>
+    </article>
+
+    <!--Promotions-->
+    <article id="promo">
+      <section>
+        <h2>Promotions and Deals</h2>
+        <!--holiday deals-->
+        <figure class="promoImg">
+        <img src="https://f.hubspotusercontent40.net/hubfs/6619549/Imported_Blog_Media/christmas-decorations-space-for-text-1080x720-1.jpg"/>
+        <figcaption class="promoText">Buy 2 tickets get 1 free on all public holidays!<figcaption>
+        </figure>
+        <!--student deals-->
+        <figure class="promoImg">
+        <img src="https://media.istockphoto.com/photos/portrait-of-high-school-student-group-wearing-uniform-standing-picture-id1047620596?k=20&m=1047620596&s=612x612&w=0&h=bIDxzpPozv-ri5R1HccGGn9AmC4u35qvSzHWAx-7kGg="/>
+        <figcaption class="promoText">All school and university students get 25% off on weekdays!<figcaption>
+        </figure>
+        <!--seniors deals-->
+        <figure class="promoImg">
+        <img src="https://media.istockphoto.com/photos/group-of-senior-retirement-friends-happiness-concept-picture-id660654876?k=20&m=660654876&s=612x612&w=0&h=TbdZiYA_mLUR1S1cI4-oiX_fKrrfZQaKqP2f0gObdQc="/>
+        <figcaption class="promoText">All senior citizens get 50% off on weekends!<figcaption>
+        </figure>
+      <section>
+    </article>
 
       <!--Other Services( slide show of images e.g maps or pictures of events with a description)-->
       <figure class="slideshow">
         <div class="slides">
+          <!--Theater-->
           <img src="https://media.istockphoto.com/photos/empty-red-cinema-seats-with-blank-white-screen-for-adding-a-picture-picture-id1255232190?b=1&k=20&m=1255232190&s=170667a&w=0&h=Bdn0zjPXJva4yKoPJtEenhOdZzm5skVkiJFk7m_DftI=" style="width:50%">
+          <!--phone grab-->
           <img src="https://media.istockphoto.com/photos/car-or-ride-share-mobile-app-in-smartphone-carsharing-ridesharing-or-picture-id1209272515?b=1&k=20&m=1209272515&s=170667a&w=0&h=ERKsYML37N_Bt2kBZSh9062x0QGqwA4nKKBNjM-eeqI="style="width:50%">
+          <!--ATMs-->
           <img src="https://media.istockphoto.com/photos/map-pointer-with-atm-machine-cash-machine-location-concept-3d-on-picture-id1197704026?b=1&k=20&m=1197704026&s=170667a&w=0&h=6vX3SS1y9fioyUddb00oLT1LyVqmvcEGwXiRzb1FjKA="style="width:50%">
         </div>
       </figure>
 
-      <!-- <section>
-        <h1> Other Services </h1>
-        <ul>
-          <li> Movie Screenings </li>
-          <li> Parades </li>
-          <li> ATM Locations </li>
-          <li> Shelter Locations </li>
-          <li> Washroom Locations </li>
-          <li> Map of Park </li>
-      </section> -->
-
       <!--Awards  and reviews-->
-      <section>
-        <dl>
-          <dt>Name of award/ reviewer 1</dt>
-          <dd>review 1</dd>4
-          <dt>Name of award/ reviewer 2</dt>
-          <dd>review 2</dd>
-          <dt>Name of award/ reviewer 3</dt>
-          <dd>review 3</dd>
-        </dl>
+      <section id="awardsReviews">
+        <table>
+          <tr>
+            <th><img src="https://riverboat.com.sg/wp-content/uploads/logo-tripadvisor.jpg" width="200px" height="150px"/></th>
+            <th><img src="https://1000logos.net/wp-content/uploads/2020/09/Trivago-logo.jpg" width="200px" height="150px"/></th>
+            <th><img src="https://www.ttrweekly.com/site/wp-content/uploads/2021/07/singapore-Tourism-Awards.png" width="200px" height="150px"/></th>
+          </tr>
+          <tr>
+            <td><dt>Trip Advisor</dt></td>
+            <td><dt>Trivago Reviews</dt></td>
+            <td><dt>Singapore Tourim Awards</dt></td>
+          </tr>
+          <tr>
+            <td><dd>One of the top 10 theme parks internationally.</dd></td>
+            <td><dd>Must visit for Marvel Fanatics all around the world!</dd></td>
+            <td><dd>Recipient of Best Local Theme Park Award, 2020</dd></td>
+          </tr>
+        </table>
+
 
         <!--Add more reviews-->
       </section>
@@ -105,40 +121,31 @@
 
   </body>
 
-<!--Footer-->
   <footer id="footer">
-    <dl>
-      <dt>Contact Us</li>
-        <table>
-          <tr>
-            <th> Instagram </th>
-            <th> Twitter </th>
-            <th> Phone </th>
-            <th> Email </th>
-          </tr>
-          <tr>
-            <td> @marvelparks </td>
-            <td> @marvelparks </td>
-            <td> +65 12345678 </td>
-            <td> queries@marvelparks.com </td>
-          </tr>
-          <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> reservations@marvelparks.com </td>
-          </tr>
-          <tr>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> feedback@marvelparks.com </td>
-          </tr>
-        </table>
-      <a href="">FAQs</a>
-      <dt> Open daily from 9am-6pm </dt>
-      <dt> 223 Bakers street </dt>
-    </dl>
-  </footer>
+    <section>
+      <dl class="footer-sub" id="contact">
+        <dt class="head">Contact Us</dt>
+        <dd>Tel: 123456</dd>
+        <dd>Toll Free Tel: 654321</dd>
+        <dd>Email: customer_service@marvelparks.com</dd>
+      </dl>
 
-</html>
+      <dl class="footer-sub" id="socialmedialinks">
+        <center>
+          <dt class="head">Social Media</dt>
+          <dd>
+            <img src="../Images/Instagram-Logo-Design-PNG.png"/>
+            <img src="../Images/logo-twitter-png-40401.png"/>
+            <img src="../Images/Youtube-Logo-PNG-HD-Quality.png"/>
+          </dd>
+        </center>
+      </dl>
+
+      <dl class="footer-sub" id="location">
+        <dt class="head">Address</dt>
+        <dd>
+          <img src="../Images/London-Paramount.png" alt="Map"/>
+        </dd>
+      </dl>
+    </section>
+  </footer>
