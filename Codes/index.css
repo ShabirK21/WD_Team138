@@ -10,18 +10,51 @@ body
 background: lightblue;
 }
 
-.slideshow img{
+.slideshow video{
   display: block;
   width: 100%;
-  height: 500px;
+  height:50em;
+  margin: auto;
+  object-fit: fill;
 }
 
 /* Food Information Styling */
+#foodinfo table{
+  display: inline-block;
+}
+
+.promoImgs img{
+  width: 40em;
+  height: 20em;
+  padding: 0.5em;
+}
+
+.foodImg img{
+  width: 41em;
+  height: 35em;
+  padding: 0.1em;
+}
+
+.promoImgs{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2em;
+}
+
+.foodImg{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 1em;
+}
+
+
+
+/*
 #foodinfo
 {
-  display: inline-flex;
+  display: flex;
   justify-content: flex-end;
-  float: right;
+  text-align: center;
 }
 
 #foodinfo figure img
@@ -68,10 +101,23 @@ background: lightblue;
   visibility: visible;
   opacity: 1;
 }
+*/
 /* End of Food Information Styling */
+/*
+#promo{
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
 
+}
 
-/* Promotions Styling */
+.promoImg img{
+  width: 20em;
+  height: 15em;
+  padding: 5px;
+}
+*/
+/* Promotions Styling
 #promo{
   width: 100%;
 }
@@ -138,23 +184,10 @@ dd
   text-align: center;
 }
 
-/* #awardsReviews figure img
-{
-  box-sizing: border-box;
-  display: inline-block;
-  width: 50%;
-  height: 150px;
-  padding: 5px;
+#awardsReviews table{
+  padding-left: 1em;
 }
 
-.reviews
-{
-  position: relative;
-  max-width: 500px;
-}
-
-.reviews img {width: 100%;} */
-/* End of awards and reviews Styling */
 
 /* Navigation Bar Styling */
 .main-menu
