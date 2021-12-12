@@ -9,82 +9,73 @@ body{
 
 /* TicketCategory */
 .ticketcategory{
-   text-align: center;
-   /* margin-right: 250px; */
-   font-family: Helvetica, Tahoma, sans-serif;
-   color: black;
+  /* margin-right: 250px; */
+  font-family: Helvetica, Tahoma, sans-serif;
+  color: black;
+  display: flex;
 }
 
-span b{
+#choosedate{
+  border: 2px solid black;
+}
+
+#choosetickets{
+  display: flex;
+
+}
+
+#choosetickets{
+  width: 50%;
+  border: 2px solid black;
+  margin: 1em;
+}
+
+
+.price{;
+ padding: 3em 0 3em 30em;
+}
+
+.price b{
   color: red;
 }
 
-/* Position of TicketCategory */
-dt{
-  text-align: left;
-  padding-left: 40px;
-}
-
-/* Position of TicketPrice */
-span{
-  position: relative;
-  /* left:100px; */
-  bottom: 22px;
-}
-
-/* Input boxes Design */
-input[type="date"], input[id="Quantity"]{
-  height: 20px;
-  align-items: center;
-}
-
-/* Calendar position */
-input[type="date"]{
-  position: relative;
-  left: 450px;
-}
-
-
-label[for="date"]{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: right;
-  width: 570px;
-}
 
 /* Ticket Info */
 .main-ticketinfo{
-  background-color: aquamarine;
-  display: inline-block;
-  width: 50%;
-  float: left;
-  border-radius: 10px;
-  margin-top: 5px;
+  display: flex;
+  justify-content: flex-start;
+  margin:1em;
+  border: 2px solid black;
 
 }
 
-.main-ticketinfo figure img{
+.ticketinfo figure img{
   width: 25%;
   height: 150px;
-  margin: 5px;
+  margin: 3px;
   padding-left: 300px;
+
 }
 
 .ticketinfo{
   margin: 10px;
 }
 
-.ticketinfo p{
-  margin: 5px;
+.ticketinfo ol{
+  list-style: none;
 }
+
+.ticketinfo ol li{
+  padding: 3px;
+}
+
 /* Navigation Bar Styling */
 .main-menu{
   background-color: #FFFF00;
   background-image: none;
   color: #000;
   border: 1px black blue;
-  position: relative;
+  position: relative;margin-left: 300px
   z-index: 1;
   height:70px;
   position: sticky;
@@ -133,7 +124,7 @@ label[for="date"]{
 }
 
 .js{
-  padding-left: 300px;
+  padding-left: 32em;
 }
 
 
@@ -141,16 +132,17 @@ label[for="date"]{
 #footer
 {
   background-color: darkred;
-  clear: both;
-  position: absolute;
-  bottom: 0;
   color: antiquewhite;
   text-align: center;
+  position: relative;
+  margin-top: 14em;
 }
 
 #footer table{
   display: inline-block;
-  padding-left: 100px;
+  padding-left: 1em;
+  padding-top: 1em;
+
 }
 
 #socialmedia img{
@@ -159,7 +151,15 @@ label[for="date"]{
 }
 
 #address img{
-  width: 50%;
+  width: 60%;
+  padding-left: 100px 2em;
+  margin: 10px 10px 0 0;
+
+}
+
+#address figure{
+  display: flex;
+  align-items: center;
 }
 
 #newsletter{
@@ -167,9 +167,5 @@ label[for="date"]{
 }
 
 #newsbox{
-  height: 20px;
-}
-
-.button{
   height: 20px;
 }

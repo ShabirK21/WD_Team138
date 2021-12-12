@@ -130,7 +130,8 @@ body {
 
 #footer table{
   display: inline-block;
-  padding-left: 100px;
+  padding-left: 1em;
+  padding-top: 1em;
 }
 
 #socialmedia img{
@@ -139,7 +140,15 @@ body {
 }
 
 #address img{
-  width: 50%;
+  width: 60%;
+  padding-left: 100px 2em;
+  margin: 10px 10px 0 0;
+
+}
+
+#address figure{
+  display: flex;
+  align-items: center;
 }
 
 #newsletter{
@@ -147,9 +156,5 @@ body {
 }
 
 #newsbox{
-  height: 20px;
-}
-
-.button{
   height: 20px;
 }
