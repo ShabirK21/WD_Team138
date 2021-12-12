@@ -28,10 +28,7 @@
     <!--Picture Slider-->
     <section id="imageSlider">
       <figure class="slideshow">
-        <div class="slides">
-          <img style="display:block; width:100%; height:500px;"
-          src="https://thumbs.dreamstime.com/b/bangkok-thailand-jan-beautiful-standee-movie-called-captain-marvel-carol-danvers-stars-brie-larson-displays-showing-141450629.jpg" style="width:100%"/>
-        </div>
+          <img src="../Images/indexpagemain.jpg"/>
       </figure>
     </section>
 
@@ -66,6 +63,7 @@
         <h2>Promotions and Deals</h2>
         <!--holiday deals-->
         <figure class="promoImg">
+<<<<<<< HEAD
         <img src="../Images/holidayPromo.jpg"/>
         <figcaption class="promoText">Buy 2 tickets get 1 free on all public holidays!<figcaption>
         </figure>
@@ -78,6 +76,14 @@
         <figure class="promoImg">
         <img src="../Images/seniorsPromo.jpg"/>
         <figcaption class="promoText">All senior citizens get 50% off on weekends!<figcaption>
+=======
+          <img src="https://f.hubspotusercontent40.net/hubfs/6619549/Imported_Blog_Media/christmas-decorations-space-for-text-1080x720-1.jpg"/>
+          <figcaption class="promoText">Buy 2 tickets get 1 free on all public holidays!</figcaption>
+          <img src="https://media.istockphoto.com/photos/portrait-of-high-school-student-group-wearing-uniform-standing-picture-id1047620596?k=20&m=1047620596&s=612x612&w=0&h=bIDxzpPozv-ri5R1HccGGn9AmC4u35qvSzHWAx-7kGg="/>
+          <figcaption class="promoText">All school and university students get 25% off on weekdays!</figcaption>
+          <img src="https://media.istockphoto.com/photos/group-of-senior-retirement-friends-happiness-concept-picture-id660654876?k=20&m=660654876&s=612x612&w=0&h=TbdZiYA_mLUR1S1cI4-oiX_fKrrfZQaKqP2f0gObdQc="/>
+          <figcaption class="promoText">All senior citizens get 50% off on weekends!</figcaption>
+>>>>>>> 7a910d5 (footer updated)
         </figure>
       <section>
     </article>
@@ -121,31 +127,32 @@
 
   </body>
 
+  <!--Footer-->
   <footer id="footer">
-    <section>
-      <dl class="footer-sub" id="contact">
-        <dt class="head">Contact Us</dt>
-        <dd>Tel: 123456</dd>
-        <dd>Toll Free Tel: 654321</dd>
-        <dd>Email: customer_service@marvelparks.com</dd>
-      </dl>
-
-      <dl class="footer-sub" id="socialmedialinks">
-        <center>
-          <dt class="head">Social Media</dt>
-          <dd>
-            <img src="../Images/Instagram-Logo-Design-PNG.png"/>
-            <img src="../Images/logo-twitter-png-40401.png"/>
-            <img src="../Images/Youtube-Logo-PNG-HD-Quality.png"/>
-          </dd>
-        </center>
-      </dl>
-
-      <dl class="footer-sub" id="location">
-        <dt class="head">Address</dt>
-        <dd>
+    <table>
+      <tr id="titles">
+        <th>Contact Us</th>
+        <th>Social Media</th>
+        <th>Address</th>
+      </tr>
+      <tr class="content">
+        <td id="contactus">Tel: 123456<br>
+            Toll Free: 123456<br>
+            Email: customer_service@marvelparks.com
+        </td>
+        <td id="socialmedia">
+          <img src="../Images/Instagram-Logo-Design-PNG.png"/>
+          <img src="../Images/logo-twitter-png-40401.png"/>
+          <img src="../Images/Youtube-Logo-PNG-HD-Quality.png"/>
+        </td>
+        <td id="address">
           <img src="../Images/London-Paramount.png" alt="Map"/>
-        </dd>
-      </dl>
-    </section>
+        </td>
+      </tr>
+      <tr id="newsletter">
+        <th><label for="newsbox">Sign up for our newsletter:</label></th>
+        <td><input placeholder="you@email.com" type="text" id="newsbox"/></td>
+        <td><input type="button" value="Sign Up" class="button"/></td>
+      </tr>
+    </table>
   </footer>

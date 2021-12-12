@@ -10,6 +10,12 @@ body
 background: lightblue;
 }
 
+.slideshow img{
+  display: block;
+  width: 100%;
+  height: 500px;
+}
+
 /* Food Information Styling */
 #foodinfo
 {
@@ -65,18 +71,13 @@ background: lightblue;
 
 
 /* Promotions Styling */
+#promo{
+  width: 100%;
+}
+
 h2
 {
   text-align: center;
-}
-
-#promo figure img
-{
-  box-sizing: border-box;
-  display: inline-block;
-  width: 50%;
-  height: 150px;
-  padding: 5px;
 }
 
 .promoImg
@@ -85,7 +86,14 @@ h2
   max-width: 500px;
 }
 
-.promoImg img {width: 100%;}
+.promoImg img
+{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 20%;
+  height: 150px;
+
+}
 
 .promoText
 {
@@ -99,8 +107,7 @@ h2
   color: white;
   padding: 50px;
   text-align: center;
-  line-height: 1
-  ;
+  line-height: 1;
 }
 
 .promoText
@@ -203,25 +210,34 @@ dd
 #footer
 {
   background-color: darkred;
+  clear: both;
+  position: absolute;
   color: antiquewhite;
   text-align: center;
 }
 
-.footer-sub
-{
+#footer table{
   display: inline-block;
-  width: 30%;
-  margin: auto;
+  padding-left: 100px;
 }
 
-#socialmedialinks dd img
-{
-  width: 8%;
-  height: 8%;
+#socialmedia img{
+  width: 5%;
+  height: 5%;
 }
 
-#location dd img
-{
-  width: 200px;
-  height: 100px;
+#address img{
+  width: 50%;
+}
+
+#newsletter{
+  display: inline-block;
+}
+
+#newsbox{
+  height: 20px;
+}
+
+.button{
+  height: 20px;
 }

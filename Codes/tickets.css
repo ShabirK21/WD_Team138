@@ -137,41 +137,39 @@ label[for="date"]{
 }
 
 
-/* Footer Stylying */
+/* Footer */
 #footer
 {
   background-color: darkred;
   clear: both;
-  position: relative;
-  height: 150px;
-  margin-top: -200px;
+  position: absolute;
+  bottom: 0;
   color: antiquewhite;
   text-align: center;
 }
 
-.footer-sub
-{
+#footer table{
   display: inline-block;
-  position: relative;
-  /* text-align: left; */
-  width: 30%;
-  margin: auto;
+  padding-left: 100px;
 }
 
-dt class{
-  position:inherit;
+#socialmedia img{
+  width: 5%;
+  height: 5%;
 }
 
-#socialmedialinks dd img
-{
-  width: 8%;
-  height: 8%;
+#address img{
+  width: 50%;
 }
 
-#location dd img
-{
-  width: 200px;
-  height: 100px;
+#newsletter{
+  display: inline-block;
 }
 
-/* End of Footer Styling
+#newsbox{
+  height: 20px;
+}
+
+.button{
+  height: 20px;
+}

@@ -118,12 +118,38 @@ body {
 }
 /*End of Navigation Bar Styling*/
 
-/* Footer Styles */
-footer
+/* Footer */
+#footer
 {
-  background-color: #8B0000;
-  font-style: italic;
-  font-family: Tahoma, Helvetica, sans-serif;
-  color:white;
-  bottom: 0;
+  background-color: darkred;
+  clear: both;
+  position: absolute;
+  color: antiquewhite;
+  text-align: center;
+}
+
+#footer table{
+  display: inline-block;
+  padding-left: 100px;
+}
+
+#socialmedia img{
+  width: 5%;
+  height: 5%;
+}
+
+#address img{
+  width: 50%;
+}
+
+#newsletter{
+  display: inline-block;
+}
+
+#newsbox{
+  height: 20px;
+}
+
+.button{
+  height: 20px;
 }

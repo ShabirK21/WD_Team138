@@ -135,34 +135,34 @@
     <script src="tickets.js"></script>
   </body>
 
+  <!--Footer-->
   <footer id="footer">
-      <section>
-        <dl class="footer-sub" id="contact">
-          <dt class="head">Contact Us</dt>
-          <dd>Tel: 123456</dd>
-          <dd>Toll Free Tel: 654321</dd>
-          <dd>Email: customer_service@marvelparks.com</dd>
-        </dl>
-
-        <dl class="footer-sub" id="socialmedialinks">
-          <center>
-            <dt class="head">Social Media</dt>
-            <dd>
-              <img src="../Images/Instagram-Logo-Design-PNG.png"/>
-              <img src="../Images/logo-twitter-png-40401.png"/>
-              <img src="../Images/Youtube-Logo-PNG-HD-Quality.png"/>
-            </dd>
-          </center>
-        </dl>
-
-        <dl class="footer-sub" id="location">
-          <dt class="head">Address</dt>
-          <dd>
-            <img src="../Images/London-Paramount.png" alt="Map"/>
-          </dd>
-        </dl>
-      </section>
-    </footer>
-
+    <table>
+      <tr id="titles">
+        <th>Contact Us</th>
+        <th>Social Media</th>
+        <th>Address</th>
+      </tr>
+      <tr class="content">
+        <td id="contactus">Tel: 123456<br>
+            Toll Free: 123456<br>
+            Email: customer_service@marvelparks.com
+        </td>
+        <td id="socialmedia">
+          <img src="../Images/Instagram-Logo-Design-PNG.png"/>
+          <img src="../Images/logo-twitter-png-40401.png"/>
+          <img src="../Images/Youtube-Logo-PNG-HD-Quality.png"/>
+        </td>
+        <td id="address">
+          <img src="../Images/London-Paramount.png" alt="Map"/>
+        </td>
+      </tr>
+      <tr id="newsletter">
+        <th><label for="newsbox">Sign up for our newsletter:</label></th>
+        <td><input placeholder="you@email.com" type="text" id="newsbox"/></td>
+        <td><input type="button" value="Sign Up" class="button"/></td>
+      </tr>
+    </table>
+  </footer>
 
 </html>
