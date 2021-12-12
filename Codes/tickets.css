@@ -138,5 +138,40 @@ label[for="date"]{
 
 
 /* Footer Stylying */
+#footer
+{
+  background-color: darkred;
+  clear: both;
+  position: relative;
+  height: 150px;
+  margin-top: -200px;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.footer-sub
+{
+  display: inline-block;
+  position: relative;
+  /* text-align: left; */
+  width: 30%;
+  margin: auto;
+}
+
+dt class{
+  position:inherit;
+}
+
+#socialmedialinks dd img
+{
+  width: 8%;
+  height: 8%;
+}
+
+#location dd img
+{
+  width: 200px;
+  height: 100px;
+}
 
 /* End of Footer Styling
