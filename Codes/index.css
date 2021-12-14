@@ -24,14 +24,14 @@ background: lightblue;
 }
 
 .promoImgs img{
-  width: 40em;
-  height: 20em;
+  width: 20em;
+  height: 10em;
   padding: 0.5em;
 }
 
 .foodImg img{
-  width: 41em;
-  height: 35em;
+  width: 35em;
+  height: 20em;
   padding: 0.1em;
 }
 
@@ -45,6 +45,7 @@ background: lightblue;
   display: flex;
   justify-content: flex-end;
   margin-left: 1em;
+  margin-top: 1em;
 }
 
 
@@ -101,7 +102,7 @@ background: lightblue;
   visibility: visible;
   opacity: 1;
 }
-*/
+
 /* End of Food Information Styling */
 /*
 #promo{
