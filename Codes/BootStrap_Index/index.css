@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#logo {
+  width: 50%;
+  height: 50%;
+}
+
+.navbar {
+  background-color: yellow;
+  width: 100%;
+}
+
+#navImg {
+  padding: 5%;
+  width: 20%;
+  height: 20%;
+}
+
+#introVid video {
+  display: block;
+  width: 100%;
+  object-fit: fill;
+}
+
+.promoImgs,
+.reviewImgs {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.promoImgs img {
+  width: 50%;
+  height: 50%;
+}
+
+.mainHeader {
+  border: 2px solid black;
+  background-color: green;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.promoImgs figcaption {
+  padding-left: 2%;
+}
+
+.reviewImgs img {
+  width: 50%;
+  height: 50%;
+}
+
+#socialmedialinks figure img {
+  width: 10%;
+  height: 10%;
+}
+
+#address figure {
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+}
+
+#address figure img {
+  width: 40%;
+  height: 40%;
+  padding-right: 2%;
+}
+
+.dealpromoCon {
+  background-color: grey;
+}
+
+.restaurantcafeCon {
+  background-color: blue;
+}
+
+.reviewawardCon {
+  background-color: red;
+}
+
+.otherservicesCon {
+  background-color: salmon;
+}
