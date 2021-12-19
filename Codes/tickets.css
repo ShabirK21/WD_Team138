@@ -20,11 +20,6 @@ body{
 }
 
 #choosetickets{
-  display: flex;
-
-}
-
-#choosetickets{
   width: 50%;
   border: 2px solid black;
   margin: 1em;
@@ -56,13 +51,7 @@ body{
 
 }
 
-#choosetickets article center{
-  position: relative;
-  width: 100%;
-  text-align: center;
-  display:block;
-  z-index: -1;
-}
+
 
 .ticketinfo figure img{
   width: 25%;
