@@ -3,6 +3,12 @@
   margin: 0;
 }
 
+body {
+  background-image: url("Images/BG-Home.jpg");
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+
 #logo {
   width: 50%;
   height: 50%;
@@ -68,22 +74,6 @@
   width: 40%;
   height: 40%;
   padding-right: 2%;
-}
-
-.dealpromoCon {
-  background-color: grey;
-}
-
-.restaurantcafeCon {
-  background-color: blue;
-}
-
-.reviewawardCon {
-  background-color: red;
-}
-
-.otherservicesCon {
-  background-color: salmon;
 }
 
 .linkCon {
