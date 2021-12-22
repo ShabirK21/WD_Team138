@@ -75,3 +75,7 @@ body {
   height: 40%;
   padding-right: 2%;
 }
+
+.tInfo {
+  opacity: 70%;
+}
