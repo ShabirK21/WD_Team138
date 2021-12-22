@@ -62,7 +62,15 @@ body {
 
 .osImgs img {
   width: 500px;
-  height: 500px;
+  height: 644px;
+}
+
+.carousel-caption {
+  bottom: -95px;
+}
+
+.carousel-inner {
+  padding-bottom: 95px;
 }
 
 #socialmedialinks figure img {
