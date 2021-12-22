@@ -48,7 +48,6 @@ body {
   border: 2px solid black;
   background-color: green;
   text-align: center;
-  margin-top: 2%;
 }
 
 .promoImgs figcaption {
@@ -56,8 +55,13 @@ body {
 }
 
 .reviewImgs img {
-  width: 50%;
-  height: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.osImgs img {
+  width: 500px;
+  height: 500px;
 }
 
 #socialmedialinks figure img {
