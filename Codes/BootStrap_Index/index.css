@@ -4,11 +4,15 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+body,
+html {
+  height: 100%;
+}
+
+.bg {
   background-image: url("Images/BG-Home.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
 }
 
 #logo {
