@@ -13,6 +13,8 @@ html {
   background-image: url("Images/BG-Home.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
 
 #logo {
