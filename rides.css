@@ -108,8 +108,8 @@ html {
   opacity: 1;
   color: white;
   text-shadow: 2px 2px 4px black;
-  font-size: 22px;
-  padding: 16px 32px;
+  font-size: 18px;
+  padding: 5px 5px;
 }
 
 .row::after {
