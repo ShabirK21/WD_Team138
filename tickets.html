@@ -174,12 +174,13 @@
                                 <img class="paymentImgs" src="Images/Mastercard.jpg"/>
                             </figure>
                             <form class="mx-auto">
-                                <select class="form-control-sm"">
-                                    <option>Nets</option>
-                                    <option>Visa</option>
-                                    <option>Mastercard</option>
+                                <select class="form-control-sm"  id="paymentmethod">
+                                    <option disabled selected value="null">Select payment type</option>
+                                    <option value="nets">Nets</option>
+                                    <option value="visa">Visa</option>
+                                    <option value="mastercard">Mastercard</option>
                                 </select>
-                                <button type="submit" class="btn-sm btn-primary mt-2">Book now</input>
+                                <button type="submit" onclick="booking();" class="btn-sm btn-primary mt-2">Book now</input>
                             </form>
                         </div>
 

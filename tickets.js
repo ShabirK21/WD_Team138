@@ -23,3 +23,14 @@ function all_total() {
   total = total_adult() + total_youth() + total_children();
   document.getElementById("all_total").innerHTML = "$" + total;
 }
+
+function booking() {
+  var dom=document.getElementById("paymentmethod");
+  if(dom.options[dom.selectedIndex].value=="null")
+  {
+    alert("Please select your tickets");
+  }
+  else{
+    alert("Thank you for booking with us");
+  }
+}
