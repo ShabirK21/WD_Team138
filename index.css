@@ -112,3 +112,25 @@ html {
   width: 10%;
   height: 0%;
 }
+
+.carousel-indicators {
+  bottom: 100px;
+}
+
+.carousel-indicators li {
+  background-color: gray;
+  height: 10px;
+  width: 10px;
+  z-index: 5 !important;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.carousel-indicators li.active {
+  background-color: white;
+  height: 10px;
+  width: 10px;
+  z-index: 5 !important;
+  padding: 0 5px;
+  cursor: pointer;
+}
