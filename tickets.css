@@ -43,23 +43,6 @@ html {
   text-align: center;
 }
 
-#socialmedialinks figure img {
-  width: 10%;
-  height: 10%;
-}
-
-#address figure {
-  display: flex;
-  align-items: center;
-  margin-left: 20%;
-}
-
-#address figure img {
-  width: 40%;
-  height: 40%;
-  padding-right: 2%;
-}
-
 .paymentImgs {
   width: 10%;
   height: 80%;
