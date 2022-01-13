@@ -46,19 +46,19 @@ html {
   border: 2px solid black;
 }
 
+.promoImgs {
+  background-color: white;
+}
+
 .promoImgs img {
   width: 50%;
-  height: 50%;
+  height: 190px;
 }
 
 .mainHeader {
   border: 2px solid black;
-  background-color: green;
+  background-color: skyblue;
   text-align: center;
-}
-
-.promoImgs figcaption {
-  padding-left: 2%;
 }
 
 .reviewImgs img {
@@ -66,8 +66,9 @@ html {
   height: 200px;
 }
 
-.osImgs img {
-  width: 300px;
+.osImgs img,
+.rcImgs img {
+  width: 100px;
   height: 500px;
 }
 
@@ -82,14 +83,14 @@ html {
   padding-bottom: 95px;
 }
 
-#socialmedialinks figure img {
+.SMLImgs img {
   width: 15%;
   height: 15%;
 }
 
-#xsSML img {
-  width: 50px;
-  height: 50px;
+.xsSML img {
+  width: 10%;
+  height: 0%;
 }
 
 #address figure {
@@ -109,11 +110,6 @@ html {
 
 .linkCon {
   font-weight: bold;
-}
-
-.xsSML img {
-  width: 10%;
-  height: 0%;
 }
 
 .carousel-indicators {
@@ -138,63 +134,42 @@ html {
   cursor: pointer;
 }
 
-/*Flip Card Styling*/
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   width: 100%;
-  height: 200px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  height: 300px;
+  perspective: 1000px;
+  margin-bottom: -104px;
 }
 
-/* This container is needed to position the front and back side */
 .flip-card-inner {
+  position: relative;
   width: 100%;
   height: 100%;
-  transition: transform 0.8s;
+  text-align: center;
+  transition: transform 0.6s;
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 190px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background-color: white;
+  color: white;
   transform: rotateY(180deg);
 }
 
 .footer {
   background-color: maroon;
   color: white;
-}
-
-/* Position the front and back side */
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-  width: 100%;
-  height: 70%;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: dodgerblue;
-  color: white;
-  transform: rotateY(180deg);
-  border-radius: 5px;
-}
-
-.back-button {
-  border-radius: 5px;
-  padding: 4px;
-}
-
-.back-button a {
-  text-decoration: none;
-}
-
-.Title {
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(231, 231, 231));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
