@@ -73,6 +73,9 @@ html {
 
 .carousel-caption {
   bottom: -95px;
+  left: 0;
+  right: 0;
+  top: 100%;
 }
 
 .carousel-inner {
@@ -108,7 +111,7 @@ html {
   font-weight: bold;
 }
 
-#xsSML img {
+.xsSML img {
   width: 10%;
   height: 0%;
 }
@@ -154,6 +157,11 @@ html {
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+}
+
+.footer {
+  background-color: maroon;
+  color: white;
 }
 
 /* Position the front and back side */
