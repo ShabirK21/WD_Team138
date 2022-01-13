@@ -34,3 +34,30 @@ function booking() {
     alert("Thank you for booking with us");
   }
 }
+
+ function promocode(){
+   var dom=document.getElementById("promocode");
+   seniorspromo = total_adult() * 0.3;
+   studentpromo = total_youth() * 0.2;
+   onlinepromo = all_total() * 0.1;
+   var promo=0;
+
+   if(document.getElementById('promocode').value == "SENIORS50")
+   {
+    document.getElementById("promo").innerHTML = "-$" + seniorspromo;
+    promo=seniorspromo;
+    }
+
+    else if(document.getElementById('promocode').value =="STUDENT5")
+    {document.getElementById("promo").innerHTML = "-$" + studentpromo;
+      promo=studentpromo;
+    }
+
+    else if(document.getElementById('promocode').value =="ONLINE10")
+    {
+      document.getElementById("promo").innerHTML = "-$" + onlinepromo;
+      promo=onlinepromo;
+    }
+
+    return promo;
+  }
