@@ -48,14 +48,14 @@ html {
   height: 80%;
 }
 
-#socialmedialinks figure img {
+.SMLImgs img {
   width: 15%;
   height: 15%;
 }
 
-#xsSML img {
-  width: 50px;
-  height: 50px;
+.xsSML img {
+  width: 10%;
+  height: 0%;
 }
 
 #address figure {
@@ -72,4 +72,9 @@ html {
 
 .tInfo {
   opacity: 70%;
+}
+
+.footer {
+  background-color: maroon;
+  color: white;
 }
