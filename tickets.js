@@ -37,7 +37,7 @@ function booking() {
 
  function promocode(){
    var dom=document.getElementById("promocode");
-   seniorspromo = total_adult() * 0.3;
+   seniorspromo = total_adult() * 0.5;
    studentpromo = total_youth() * 0.2;
    onlinepromo = all_total() * 0.1;
    var promo=0;
