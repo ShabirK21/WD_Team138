@@ -26,7 +26,7 @@ function all_total() {
 
 function booking() {
   var dom = document.getElementById("paymentmethod");
-  if (dom.options[dom.selectedIndex].value == "null") {
+  if (dom.options[dom.selectedIndex].value === "null") {
     alert("Please select your tickets");
   } else {
     alert("Thank you for booking with us");
