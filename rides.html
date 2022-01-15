@@ -190,37 +190,56 @@
     ></script>
   </body>
 
-  <footer class="footer">
+  <!--Footer for medium to large screens-->
+  <footer class="footer" id="footer">
     <div class="container-fluid d-none d-md-block">
       <div class="row">
-        <div class="col-3">
-          <header class="footHeader"><h3>Contact Us</h3></header>
-          <span>Tel: 123456</span><br>
-          <span>Toll Free: 123456</span><br>
-          <span>Email: marvelparks@customer_service.com</span><br>
-          <form class="form-inline mt-5 mb-1">
-            <header><bold>Sign up for our newsletter:</bold></header>
-            <input type="email" class="form-control-sm mr-2" id="email" placeholder="you@email.com" name="email" required>
-            <button type="submit" class="btn-sm btn-secondary" onclick="newsletter();">Sign up</button>
-          </form>
+        <div class="col-3" id="contactUs">
+          <div class="row">
+            <div class="col-12">
+              <!--Contact information-->
+              <header class="footHeader text"><h3>Contact Us</h3></header>
+              <span>Tel: 123456</span><br>
+              <span>Toll Free: 123456</span><br>
+              <span>Email: marvelparks@customer_service.com</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <form class="form-inline mt-5">
+                <!--Newsletter sign-up-->
+                <header><bold>Sign up for our newsletter:</bold></header>
+                <input type="email" class="form-control-sm mr-2" id="email" placeholder="you@email.com" name="email" required>
+                <button type="submit" class="btn-sm btn-secondary" onclick="newsletter();">Sign up</button>
+              </form>
+            </div>
+          </div>
         </div>
+
+        <!--Location information-->
         <div class="col-6 text-center" id="address">
-            <header class="footHeader"><h3>Address</h3></header>
-          <div id="map"></div>
-          <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-         <figure>
-            <script
-              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoR0-gkc55oMQC9Lq3ja-lG0SCm1CXFg8&callback=initMap&libraries=&v=weekly"
-              async
-            ></script>
-            <figcaption class="px-2"><p>Marvel Theme Park<br>
-              Iron Man Road<br>
-              13th Thor Street<br>
-              AV421312</p></figcaption>
-          </figure>
+          <header class="footHeader text"><h3>Address</h3></header>
+          <div id="map" class="mb-2">
+            <figure>
+              <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+              <script
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoR0-gkc55oMQC9Lq3ja-lG0SCm1CXFg8&callback=initMap&libraries=&v=weekly"
+                async
+              ></script>
+            </figure>
+          </div>
+          <div id="mapCaption" class="mt-5">
+            <p>Marvel Parks<br>
+            12345 Thor Street<br>
+            Iron Man Road<br>
+            MP54321
+            </p>
+          </div>
         </div>
+      
+        <!--Social media-->
         <div class="col-3 text-center" id="socialmedialinks">
-          <header class="footHeader"><h3>Social Media Links</h3></header>
+          <header class="footHeader text"><h3>Stay Connected</h3></header>
           <figure class="SMLImgs">
             <img src="Images/Twitter.png" alt="twitter"/>
             <img src="Images/Youtube.png" alt="youtube"/>
@@ -236,6 +255,7 @@
     </div>
     <script src="index.js"></script>
   </footer>
+
 
   <footer class="footer" id="footerxs">
     <div class="container-fluid d-md-none"">

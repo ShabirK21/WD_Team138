@@ -181,12 +181,20 @@ html {
 .carousel-indicators {
   bottom: 100px;
 }
+
 #map{
   height: 180px;
   /* The height is 400 pixels */
-  width: 50%;
+  width: 30%;
   /* The width is the width of the web page */
+  display: inline-block; 
+  vertical-align:top;
 }
+
+#mapCaption{
+  display: inline-block;
+}
+
 .footer {
   background-color: maroon;
   color: white;

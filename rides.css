@@ -128,9 +128,6 @@ html {
   margin: 2%;
 }
 
-
-
-
 .text {
   opacity: 1;
   color: white;
@@ -154,12 +151,24 @@ html {
   clear: both;
   display: table;
 }
+
 #map{
   height: 180px;
   /* The height is 400 pixels */
-  width: 50%;
+  width: 30%;
   /* The width is the width of the web page */
+  display: inline-block; 
+  vertical-align:top;
 }
+
+#mapCaption{
+  display: inline-block;
+}
+
+#contactUs{
+  margin-left: -80px;
+}
+
 .footer {
   background-color: maroon;
   color: white;
