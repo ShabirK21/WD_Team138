@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="rides.css" />
+     <script src="./rides.js"></script>
     <title>Rides</title>
     <link
       rel="stylesheet"
@@ -204,9 +205,14 @@
           </form>
         </div>
         <div class="col-6 text-center" id="address">
-          <header class="footHeader"><h3>Address</h3></header>
-          <figure>
-            <img src="Images/map.png" alt="map"/>
+            <header class="footHeader"><h3>Address</h3></header>
+          <div id="map"></div>
+          <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+         <figure>
+            <script
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoR0-gkc55oMQC9Lq3ja-lG0SCm1CXFg8&callback=initMap&libraries=&v=weekly"
+              async
+            ></script>
             <figcaption class="px-2"><p>Marvel Theme Park<br>
               Iron Man Road<br>
               13th Thor Street<br>
