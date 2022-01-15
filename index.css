@@ -42,6 +42,13 @@ html {
   object-fit: fill;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  -webkit-text-decoration-color: red; /* Safari */
+  text-decoration-color: red;
+}
+
 /*Main content styling*/
 .promoImgs,
 .reviewImgs {
