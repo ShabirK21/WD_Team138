@@ -9,6 +9,14 @@ html {
   height: 100%;
 }
 
+.bg {
+  background-image: url("Images/BG-tickets.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
 #logo {
   width: 50%;
   height: 100%;
