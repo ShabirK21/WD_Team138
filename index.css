@@ -181,7 +181,12 @@ html {
 .carousel-indicators {
   bottom: 100px;
 }
-
+#map{
+  height: 180px;
+  /* The height is 400 pixels */
+  width: 50%;
+  /* The width is the width of the web page */
+}
 .footer {
   background-color: maroon;
   color: white;
