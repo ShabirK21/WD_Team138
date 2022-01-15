@@ -1,3 +1,4 @@
+/*General webpage styling*/
 * {
   padding: 0;
   margin: 0;
@@ -17,6 +18,7 @@ html {
   background-size: cover;
 }
 
+/*Navigation bar styling*/
 #logo {
   width: 50%;
   height: 50%;
@@ -33,12 +35,14 @@ html {
   height: 20%;
 }
 
+/*Introduction video styling*/
 #introVid video {
   display: block;
   width: 100%;
   object-fit: fill;
 }
 
+/*Main content styling*/
 .promoImgs,
 .reviewImgs {
   display: flex;
@@ -82,39 +86,6 @@ html {
 
 .carousel-inner {
   padding-bottom: 95px;
-}
-
-.SMLImgs img {
-  width: 15%;
-  height: 15%;
-}
-
-.xsSML img {
-  width: 10%;
-  height: 0%;
-}
-
-#address figure {
-  display: flex;
-  align-items: center;
-  margin-left: 30%;
-}
-
-#address figure img {
-  width: 35%;
-  height: 35%;
-}
-
-.footHeader {
-  margin-top: 5px;
-}
-
-.linkCon {
-  font-weight: bold;
-}
-
-.carousel-indicators {
-  bottom: 100px;
 }
 
 .carousel-indicators li {
@@ -168,6 +139,40 @@ html {
   background-color: white;
   color: white;
   transform: rotateY(180deg);
+}
+
+/*Footer styling*/
+.SMLImgs img {
+  width: 15%;
+  height: 15%;
+}
+
+.xsSML img {
+  width: 10%;
+  height: 0%;
+}
+
+#address figure {
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+}
+
+#address figure img {
+  width: 35%;
+  height: 35%;
+}
+
+.footHeader {
+  margin-top: 5px;
+}
+
+.linkCon {
+  font-weight: bold;
+}
+
+.carousel-indicators {
+  bottom: 100px;
 }
 
 .footer {
