@@ -33,6 +33,13 @@ html {
   height: 20%;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  -webkit-text-decoration-color: red; /* Safari */
+  text-decoration-color: red;
+}
+
 .linkCon {
   font-weight: bold;
 }
@@ -44,7 +51,7 @@ html {
 }
 
 .paymentImgs {
-  width: 60px;
+  width: 70px;
   height: 60px;
 }
 
