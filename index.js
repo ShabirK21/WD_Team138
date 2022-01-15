@@ -1,3 +1,4 @@
+//Function checking if email was entered for newsletter
 function newsletter() {
   if (document.getElementById("email").value === "") {
     alert("Please input a valid email address");
@@ -5,3 +6,4 @@ function newsletter() {
     alert("Thank you for subscribing to our newsletter!");
   }
 }
+
