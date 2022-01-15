@@ -12,7 +12,6 @@
     />
     <!--Stylesheet Import-->
     <link href="index.css" rel="stylesheet" />
-    <script src="./rides.js"></script>
     <!--Page title & logo-->
     <title>Marvel Parks</title>
     <link rel="icon" type="image/png" href="Images/mIcon.png">
@@ -307,19 +306,13 @@
         </div>
       </div>
       <div class="row">
-        <header class="footHeader"><h3>Address</h3></header>
-      <div id="map"></div>
-      <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-     <figure>
-        <script
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoR0-gkc55oMQC9Lq3ja-lG0SCm1CXFg8&callback=initMap&libraries=&v=weekly"
-          async
-        ></script>
-        <figcaption class="px-2"><p>Marvel Theme Park<br>
-          Iron Man Road<br>
-          13th Thor Street<br>
-          AV421312</p></figcaption>
-      </figure>
+        <!--Location information-->
+        <div class="col mt-3">
+          <h3><bold>Address</bold></h3>
+          <p>Marvel Theme Park<br>
+            Iron Man Road<br>
+            13th Thor Street<br>
+            AV421312</p>
         </div>
       </div>
       <div class="row">
