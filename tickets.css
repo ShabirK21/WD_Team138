@@ -103,8 +103,16 @@ html {
   height: 20%;
 }
 
-.linkCon {
+.nav-link{
+  font-size: x-large;
   font-weight: bold;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  -webkit-text-decoration-color: red; /* Safari */
+  text-decoration-color: red;
 }
 
 #ticketImg {
