@@ -72,8 +72,8 @@ html {
 }
 
 .mainHeader {
-  border: 2px solid black;
-  background-color: skyblue;
+  font-style: italic;
+  color: white;
   text-align: center;
 }
 
