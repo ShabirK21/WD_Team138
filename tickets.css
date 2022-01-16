@@ -17,6 +17,13 @@ html {
   background-size: cover;
 }
 /*category cards*/
+.passHeader{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-style: oblique;
+    margin-bottom: 2%
+}
 .wrap{
   display: flex;
   justify-content: center;
