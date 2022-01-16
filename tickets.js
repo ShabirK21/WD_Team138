@@ -1,6 +1,10 @@
 function total_adult() {
   var no_of_tickets = document.getElementById("adultTic").value;
+  var seniorspromo =   document.getElementById("check03");
   var total = no_of_tickets * 30;
+  if(seniorspromo.checked == true) {
+    total = total * 0.9;
+  }
   document.getElementById("adult_total").innerHTML = "$" + total;
   return total;
 }
