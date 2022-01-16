@@ -247,6 +247,11 @@ html {
   text-align: center;
 }
 
+.card{
+  color: #fff;
+  background: linear-gradient(#FF0000, #0000FF);
+}
+
 .paymentImgs {
   width: 60px;
   height: 60px;
