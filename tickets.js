@@ -11,7 +11,11 @@ function total_adult() {
 
 function total_youth() {
   var no_of_tickets = document.getElementById("youthTic").value;
+  var studentpromo = document.getElementById("check02");
   total = no_of_tickets * 20;
+  if(studentpromo.checked ==  true) {
+    total = total * 0.8;
+  }
   document.getElementById("youth_total").innerHTML = "$" + total;
   return total;
 }
