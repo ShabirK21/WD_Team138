@@ -41,6 +41,10 @@ function booking() {
   }
 }
 
+function emailalert() {
+  alert("Please email marvelparks@customer_service.com to purchase pass")
+}
+
 // Initialize and add the map
 function initMap() {
   // The location of SIM
