@@ -18,14 +18,16 @@ html {
 }
 /*category cards*/
 .wrap{
-  margin-left: 27%
-
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  grid-gap: 5%
 }
 .card1{
     float:left;
-    flex: 1;
-    flex-basis: 300px;
-    flex-grow: 0;
+    margin: 20px
+   flex: 1;
+   //flex-basis: 300px;
     height: 350px;
     background: #fff;
     border: 2px solid #fff;
