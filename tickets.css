@@ -90,12 +90,12 @@ html {
 .passPromotions{
   display: flex;
   justify-content: left;
-  margin-left: 220px;
+  margin-left: 18%;
   color: white;
   font-style: oblique;
 }
 .wrapper{
-  margin-left: 220px;
+  margin-left: 18%;
   display: flex;
   justify-content: left;
   flex-direction: row;
