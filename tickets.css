@@ -257,6 +257,7 @@ html {
   height: 60px;
 }
 
+/*Footer styling*/
 .SMLImgs img {
   width: 15%;
   height: 15%;
@@ -270,29 +271,37 @@ html {
 #address figure {
   display: flex;
   align-items: center;
-  margin-left: 20%;
+  margin-left: 30%;
 }
 
 #address figure img {
-  width: 40%;
-  height: 40%;
-  padding-right: 2%;
+  width: 35%;
+  height: 35%;
 }
+
+.footHeader {
+  margin-top: 5px;
+}
+
+.linkCon {
+  font-weight: bold;
+}
+
+.carousel-indicators {
+  bottom: 100px;
+}
+
 #map{
   height: 180px;
   /* The height is 400 pixels */
   width: 30%;
   /* The width is the width of the web page */
-  display: inline-block;
+  display: inline-block; 
   vertical-align:top;
 }
 
 #mapCaption{
   display: inline-block;
-}
-
-.tInfo {
-  opacity: 70%;
 }
 
 .footer {

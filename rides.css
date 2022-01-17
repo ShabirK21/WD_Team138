@@ -50,40 +50,6 @@ html {
   height: 100%;
 }
 
-.SMLImgs img {
-  width: 15%;
-  height: 15%;
-}
-
-.xsSML img {
-  width: 10%;
-  height: 0%;
-}
-
-#address figure {
-  display: flex;
-  align-items: center;
-  margin-left: 30%;
-}
-
-#address figure img {
-  width: 35%;
-  height: 35%;
-}
-
-.footHeader {
-  margin-top: 5px;
-}
-
-.linkCon {
-  font-weight: bold;
-}
-
-#xsSML img {
-  width: 10%;
-  height: 0%;
-}
-
 .image {
   opacity: 1;
   display: block;
@@ -162,12 +128,51 @@ html {
   vertical-align:top;
 }
 
-#mapCaption{
-  display: inline-block;
+/*Footer styling*/
+.SMLImgs img {
+  width: 15%;
+  height: 15%;
 }
 
-#contactUs{
-  margin-left: -80px;
+.xsSML img {
+  width: 10%;
+  height: 0%;
+}
+
+#address figure {
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+}
+
+#address figure img {
+  width: 35%;
+  height: 35%;
+}
+
+.footHeader {
+  margin-top: 5px;
+}
+
+.linkCon {
+  font-weight: bold;
+}
+
+.carousel-indicators {
+  bottom: 100px;
+}
+
+#map{
+  height: 180px;
+  /* The height is 400 pixels */
+  width: 30%;
+  /* The width is the width of the web page */
+  display: inline-block; 
+  vertical-align:top;
+}
+
+#mapCaption{
+  display: inline-block;
 }
 
 .footer {

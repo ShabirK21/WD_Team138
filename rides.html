@@ -18,10 +18,8 @@
 
   <body>
    <div class="bg">
-    <!--Navigation Bar-->
-    <nav
-      class="navbar navbar-expand-lg navbar-light sticky-top container-fluid"
-    >
+    <!--Main navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top container-fluid">
       <a class="navbar-brand" href="index.html"
         ><img id="logo" src="Images/logo.png" alt="Marvel Logo"
       /></a>
@@ -37,24 +35,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div
-        class="collapse navbar-collapse justify-content-end"
-        id="navbarSupportedContent"
-      >
-        <ul class="navbar-nav" id="navBarCon">
-          <li class="nav-item btn mx-2 linkCon">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item active btn mx-2 linkCon">
-            <a class="nav-link" href="rides.html">Rides</a>
-          </li>
-          <li class="nav-item btn mx-2 linkCon">
-            <a class="nav-link" href="tickets.html">Book Now!</a>
-          </li>
-          <li class="nav-item btn mx-2 linkCon">
-            <a class="nav-link" href="#footer">Contact Us</a>
-          </li>
-        </ul>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link btn mx-2" href="index.html">Home</a>
+          <a class="nav-item nav-link btn active mx-2" href="rides.html">Rides</a>
+          <a class="nav-item nav-link btn mx-2" href="tickets.html">Book Now!</a>
+          <a class="nav-item nav-link btn mx-2" href="#footer">Contact Us</a>
+      </div>
       </div>
     </nav>
 
@@ -191,34 +178,58 @@
   
   </body>
 
-  <!--Footer for medium to large screens-->
+  <!--Footer-->
   <footer class="footer" id="footer">
-    <div class="container-fluid d-none d-md-block">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-3" id="contactUs">
+        <div class="col-3 d-none d-md-block" id="contactUs">
           <div class="row">
             <div class="col-12">
-              <!--Contact information-->
+              <!--Large & Above Contact information-->
               <header class="footHeader text"><h3>Contact Us</h3></header>
-              <span>Tel: 123456</span><br>
-              <span>Toll Free: 123456</span><br>
+              <span>Tel: 123456</span><br />
+              <span>Toll Free: 123456</span><br />
               <span>Email: marvelparks@customer_service.com</span>
             </div>
           </div>
           <div class="row">
             <div class="col-12">
               <form class="form-inline mt-5">
-                <!--Newsletter sign-up-->
+                <!--Large & Above Newsletter sign-up-->
                 <header><bold>Sign up for our newsletter:</bold></header>
-                <input type="email" class="form-control-sm mr-2" id="email" placeholder="you@email.com" name="email" required>
-                <button type="submit" class="btn-sm btn-secondary" onclick="newsletter();">Sign up</button>
+                <input
+                  type="email"
+                  class="form-control-sm mr-2"
+                  id="email"
+                  placeholder="you@email.com"
+                  name="email"
+                  required
+                />
+                <button
+                  type="submit"
+                  class="btn-sm btn-secondary"
+                  onclick="newsletter();"
+                >
+                  Sign up
+                </button>
               </form>
             </div>
           </div>
         </div>
+        <div class="row d-block d-md-none">
+          <div class="col">
+            <!--Contact information-->
+            <header class="pt-3">
+              <h3><bold>Contact Us</bold></h3>
+            </header>
+            <span>Tel: 123456</span><br />
+            <span>Toll Free: 123456</span><br />
+            <span>Email: customer_service@marvelparks.coom</span>
+          </div>
+        </div>
 
-        <!--Location information-->
-        <div class="col-6 text-center" id="address">
+        <!--Large & Above Location information-->
+        <div class="col-6 text-center d-none d-md-block" id="address">
           <header class="footHeader text"><h3>Address</h3></header>
           <div id="map" class="mb-2">
             <figure>
@@ -230,79 +241,83 @@
             </figure>
           </div>
           <div id="mapCaption" class="mt-5">
-            <p>Marvel Parks<br>
-            12345 Thor Street<br>
-            Iron Man Road<br>
-            MP54321
+            <p>
+              Marvel Parks<br />
+              12345 Thor Street<br />
+              Iron Man Road<br />
+              MP54321
             </p>
           </div>
         </div>
-      
-        <!--Social media-->
-        <div class="col-3 text-center" id="socialmedialinks">
-          <header class="footHeader text"><h3>Stay Connected</h3></header>
-          <figure class="SMLImgs">
-            <img src="Images/Twitter.png" alt="twitter"/>
-            <img src="Images/Youtube.png" alt="youtube"/>
-            <img src="Images/Instagram.png" alt="instagram"/>
-          </figure>
-          <figure class="SMLImgs">
-            <img src="Images/Pintrest.png" alt="pintrest"/>
-            <img src="Images/Facebook.png" alt="facebook"/>
-            <img src="Images/Tumblr.png" alt="tumblr"/>
-          </figure>
-        </div>
-      </div>
-    </div>
-    <script src="index.js"></script>
-  </footer>
-
-
-  <footer class="footer" id="footerxs">
-    <div class="container-fluid d-md-none"">
-      <div class="row">
-        <div class="col">
-          <header class="pt-3"><h3><bold>Contact Us</bold></h3></header>
-          <span>Tel: 123456</span><br>
-          <span>Toll Free: 123456</span><br>
-          <span>Email: marvelparks@customer_service.com</span>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col mt-3">
-          <h3><bold>Address</bold></h3>
-          <p>Marvel Theme Park<br>
-            Iron Man Road<br>
-            13th Thor Street<br>
-            AV421312</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h3><bold>Social Media</bold></h3>
-          <figure class="xsSML">
-            <img src="Images/Twitter.png" alt="twitter"/>
-            <img src="Images/Youtube.png" alt="youtube"/>
-            <img src="Images/Instagram.png" alt="instagram"/>
-          </figure>
-          <figure class="xsSML">
-            <img src="Images/Pintrest.png" alt="pintrest"/>
-            <img src="Images/Facebook.png" alt="facebook"/>
-            <img src="Images/Tumblr.png" alt="tumblr"/>
-          </figure>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="row">
-            <div class="col">
-              <span class="px-1">Sign up for newsletter:</span>
-            </div>
+        <div class="row d-block d-md-none">
+          <!--Location information-->
+          <div class="col mt-3">
+            <h3><bold>Address</bold></h3>
+            <p>
+              Marvel Theme Park<br />
+              Iron Man Road<br />
+              13th Thor Street<br />
+              AV421312
+            </p>
           </div>
-          <form class="form-inline mb-2">
-            <input type="email" class="form-control-sm mr-2" id="email" placeholder="you@email.com" name="email" required>
-            <button type="submit" class="btn-sm btn-secondary" onclick="newsletter();">Sign up</button>
-          </form>
+        </div>
+
+        <!--Large & Above Social media-->
+        <div class="col-3 text-center d-none d-md-block" id="socialmedialinks">
+          <header class="footHeader"><h3>Stay Connected</h3></header>
+          <figure class="SMLImgs">
+            <img src="Images/Twitter.png" alt="twitter" />
+            <img src="Images/Youtube.png" alt="youtube" />
+            <img src="Images/Instagram.png" alt="instagram" />
+          </figure>
+          <figure class="SMLImgs">
+            <img src="Images/Pintrest.png" alt="pintrest" />
+            <img src="Images/Facebook.png" alt="facebook" />
+            <img src="Images/Tumblr.png" alt="tumblr" />
+          </figure>
+        </div>
+        <div class="row d-block d-md-none">
+          <div class="col">
+            <!--Social media-->
+            <h3><bold>Stay Connected</bold></h3>
+            <figure class="xsSML">
+              <img src="Images/Twitter.png" alt="twitter" />
+              <img src="Images/Youtube.png" alt="youtube" />
+              <img src="Images/Instagram.png" alt="instagram" />
+            </figure>
+            <figure class="xsSML">
+              <img src="Images/Pintrest.png" alt="pintrest" />
+              <img src="Images/Facebook.png" alt="facebook" />
+              <img src="Images/Tumblr.png" alt="tumblr" />
+            </figure>
+          </div>
+        </div>
+        <div class="row d-block d-sm-none">
+          <div class="col">
+            <div class="row">
+              <!--Newsletter sign-up-->
+              <div class="col">
+                <span class="px-1">Sign up for newsletter:</span>
+              </div>
+            </div>
+            <form class="form-inline mb-2">
+              <input
+                type="email"
+                class="form-control-sm mr-2"
+                id="email"
+                placeholder="you@email.com"
+                name="email"
+                required
+              />
+              <button
+                type="submit"
+                class="btn-sm btn-secondary"
+                onclick="newsletter();"
+              >
+                Sign up
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
