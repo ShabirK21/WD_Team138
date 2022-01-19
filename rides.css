@@ -50,10 +50,10 @@ html {
   height: 100%;
 }
 
-.image {
+.image {/*rides image styling*/
   opacity: 1;
   display: block;
-  border-radius: 25px;
+  border-radius: 25px;/*giving it rounded corners*/
   width: 1%;
   height: cover;
   transition: 0.5s ease;
@@ -63,15 +63,14 @@ html {
 
 }
 
-.middle {
+.middle {/*this is the content in the image styling*/
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 30%;
   left: 2%;
   right: 2%;
-  //transform: translate(-50%, -50%);
-  //-ms-transform: translate(-50%, -50%);
+  box-sizing: border-box;
   text-align: center;
 
 
@@ -91,11 +90,11 @@ html {
 
 
 }
-.row{
+.row{/*detemines margin between rows*/
   margin: 2%;
 }
 
-.text {
+.text {/*stles the text for the description middle*/
   opacity: 1;
   color: white;
   text-shadow: 2px 2px 4px black;
@@ -103,7 +102,7 @@ html {
   padding: 5px 5px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {/*ensures text sizes properly for all media types*/
   .text {
     opacity: 1;
     color: white;
@@ -121,10 +120,10 @@ html {
 
 #map{
   height: 180px;
-  /* The height is 400 pixels */
+  /* The height is 180 pixels */
   width: 30%;
   /* The width is the width of the web page */
-  display: inline-block; 
+  display: inline-block;
   vertical-align:top;
 }
 
@@ -164,10 +163,10 @@ html {
 
 #map{
   height: 180px;
-  /* The height is 400 pixels */
+  /* The height is 180 pixels */
   width: 30%;
   /* The width is the width of the web page */
-  display: inline-block; 
+  display: inline-block;
   vertical-align:top;
 }
 
