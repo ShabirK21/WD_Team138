@@ -342,3 +342,7 @@ button{
   display: inline-block;
 }
 
+.footer {
+  background-color: maroon;
+  color: white;
+}
