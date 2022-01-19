@@ -243,7 +243,7 @@ html {
 }
 
 .nav-link{
-  font-size: x-large;
+  font-size: medium;
   font-weight: bold;
 }
 
@@ -262,12 +262,37 @@ html {
 
 .card{
   color: #fff;
-  background: linear-gradient(#FF0000, #0000FF);
 }
 
 .paymentImgs {
   width: 60px;
   height: 60px;
+}
+
+.box{
+  border: 1px solid black;;
+  background-color: white;
+  border-radius: 5px
+}
+
+.date{
+    text-align: center;
+  }
+
+.purchase-box{
+  width: 100%;
+  height: 100%;
+  color: black;
+  background: linear-gradient(#FF0000, #0000FF);
+  border-radius: 5px;
+  padding: 5%;
+}
+
+button{
+  background-color: #FF0000;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5%;
 }
 
 /*Footer styling*/
@@ -317,7 +342,3 @@ html {
   display: inline-block;
 }
 
-.footer {
-  background-color: maroon;
-  color: white;
-}
