@@ -9,47 +9,47 @@ html {
   height: 100%;
 }
 
-.bg {
-  background-image: url("Images/BG-tickets.png");
+.bg {/*styling for page background*/
+  background-image: url("Images/BG-tickets.png");/*background image of the page*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
 /*category cards*/
-.passHeader{
+.passHeader{/*used for header of passes below*/
   display: flex;
-  justify-content: center;
+  justify-content: center;/*aligns text in the middle*/
   color: white;
-  font-style: oblique;
-    margin-bottom: 2%
+  font-style: oblique;/*font style of text*/
+    margin-bottom: 2%/*margin below before the passes*/
 }
-.wrap{
+.wrap{/*used to order the cards and manipulate the space between them acts as their holder*/
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-  grid-gap: 5%
+  justify-content: center;/* aligns card in the centre*/
+  flex-direction: row;/*aligns cards as a row*/
+  flex-wrap: wrap;/* wraps content when window becomes to small*/
+  grid-gap: 5%/*5% gap between cards and is scaled according to container*/
 }
 .card1{
-    float:left;
+    float:left;/*ensuring the cards align side by side*/
     margin: 20px
-   flex: 1;
-   //flex-basis: 300px;
+    flex: 1;/*Let all the flexible items be the same length, regardless of its content*/
     height: 350px;
     background: #fff;
     border: 2px solid #fff;
-    box-shadow: 0px 4px 7px rgba(0,0,0,.5);
-    cursor: pointer;
-    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+    box-shadow: 0px 4px 7px rgba(0,0,0,.5);/*card shadows*/
+    cursor: pointer;/*changes cursor to a pointer*/
+    transition: all .5s cubic-bezier(.8,.5,.2,1.4);/*gives the transition a rounded effect*/
     overflow: hidden;
     position: relative;
 }
 .card1 img{
     width: 100%;
     height:100%;
-    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+
 }
-.descriptions{
+.descriptions{/* styling for pass details*/
     position: absolute;
     top:0px;
     left:0px;
@@ -61,61 +61,63 @@ html {
     box-sizing: border-box;
     clip-path: circle(0% at 100% 100%);
 }
-.card1:hover .descriptions{
+.card1:hover .descriptions{/* styling for pass details transition on hover*/
     left:0px;
     transition: all .7s ease-in-out;
     clip-path: circle(75%);
 }
-.card1:hover{
-    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
-    box-shadow: 0px 2px 3px rgba(0,0,0,.3);
-    transform: scale(.97);
+.card1:hover{/* styling for card transition on hover*/
+    transition: all .5s cubic-bezier(.8,.5,.2,1.4);/*gives transition a rounded effect*/
+    box-shadow: 0px 2px 3px rgba(0,0,0,.3);/*changes the card shadow on hover*/
+    transform: scale(1.05);/*makes the card bigger on hover*/
 }
 .card1:hover img{
     transition: all .5s cubic-bezier(.8,.5,.2,1.4);
-    transform: scale(1.6) rotate(20deg);
-    filter: blur(3px);
+    transform: scale(1.6);
+    filter: blur(3px);/*blurs the card image on hover*/
 }
-.card1 h1{
+.card1 h1{/*styling for card header*/
     color: #ff3838;
     letter-spacing: 1px;
     margin: 0px;
 }
-.card1 p{
+.card1 p{/*styling for card descripion words*/
     line-height: 24px;
     height: 70%;
 }
 /*end of passes*/
 /*beginning of promotions*/
-.passPromotions{
+.passPromotions{/*styling for header of promotions*/
   display: flex;
-  justify-content: left;
-  margin-left: 18%;
+  justify-content: left;/*justifies content to the left*/
+  margin-left: 18%;/*left margin percentage of container*/
   color: white;
-  font-style: oblique;
+  font-style: oblique;/*font style of text*/
 }
-.wrapper{
+.wrapper{/*container that wraps around promotions to determine layout and alignment*/
   margin-left: 18%;
-  display: flex;
+  display: flex;/*flexable content*/
   justify-content: left;
   flex-direction: row;
-  flex-wrap: wrap;
-  grid-gap: 5%
-
+  flex-wrap: wrap;/* wraps content when window becomes to small*/
+  grid-gap: 5%/*specifies gap between content of promotion cards to be 5%*/
 }
 
-.check-card {
+.check-card {/*holds the entire promotion content*/
 	list-style: none;
-	//margin: 10px auto;
   width: 200px;
+  height: 200px;
 }
 .check-card .check-card-item {
 	position: relative;
 	width: 100%;
 	margin: 0 1% 15px;
 	font-size: 16px;
-	background: #3c5998;
-	overflow: hidden;
+  box-sizing: border-box;/*gives cards a red border;*/
+  background-image: url("https://wallpaperaccess.com/full/3355901.png");/*background for promotion cards*/
+  background-position: center;/*centers the avengers background*/
+  background-size: cover;/*ensures abengers background is properly sized in container*/
+	overflow: hidden;/* ensures content that cant fit in the container is not visible*/
 }
 .check-card li label {
 	display: block;
@@ -127,24 +129,24 @@ html {
 }
 .check-card .check-card-body {
 	height: 200px;
-	color: #fff;
+	color: #fff;/*color of words in promotions card*/
 	z-index: 2;
 	position: relative;
 }
-.check-card .check-card-body-in {
+.check-card .check-card-body-in {/*padding for content*/
 	padding: 10px 20px 20px;
 
 }
 
-.check-card .check-card-title {
+.check-card .check-card-title {/*content header styling*/
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	margin-bottom: 10px;
 }
 .check-card .check-card-bg,
-.check-card .check-card-toggle {
+.check-card .check-card-toggle {/*card background on toggle and toggle styling*/
 	position: relative;
-	background: #2e2d37;
+	background: #31ad41;
 	width: 36px;
 	height: 36px;
 	top: 10px;
@@ -154,12 +156,13 @@ html {
 }
 .check-card .check-card-bg {
 	position: absolute;
-	background: #2e2d37;
+  background: green;
 	-webkit-transition: all .3s ease-out;
 	transition: all .3s ease-out;
 	-webkit-transform:scale(1);
 	transform:scale(1);
 	z-index: 0;
+
 }
 .check-card .check-card-toggle span {
 	position: absolute;
@@ -175,10 +178,12 @@ html {
 
 	-webkit-transform: rotate(-270deg);
 	transform: rotate(-270deg);
+
 }
 .check-card .check-card-toggle span:first-child {
 	-webkit-transform: rotate(180deg);
 	transform: rotate(180deg);
+
 }
 .check-card .check-card-cancel {
 	font-size: 15px;
@@ -190,25 +195,33 @@ html {
 	bottom: 3px;
 	margin: -20% 7%;
 	width: 86%;
-	-webkit-transition: all .3s cubic-bezier(0.5, -0.8, 0.5, 1.8);
-	transition: all .3s cubic-bezier(0.5, -0.8, 0.5, 1.8);
+	-webkit-transition: all .3s cubic-bezier(0.5, -0.8, 0.5, 1.8);/*bezier curve for rounded effect of transition*/
+	transition: all .3s cubic-bezier(0.5, -0.8, 0.5, 1.8);/*bezier curve for rounded effect of transition*/
+
 }
 .check-card input[type=checkbox] {
 	display: none;
 }
-.check-card input[type=checkbox]:checked ~ .check-card-body .check-card-toggle span {
+.check-card input[type=checkbox]:checked ~ .check-card-body .check-card-toggle {
+  background: red;/*to make ceckbox toggle icon red when its toggled*/
 	-webkit-transform: rotate(0deg);
 	transform: rotate(0deg);
 }
-.check-card input[type=checkbox]:checked ~ .check-card-body .check-card-toggle span:first-child {
+.check-card input[type=checkbox]:checked ~ .check-card-body .check-card-toggle span {*/to rotate the vertical line in the toggle to make a minus*/
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+
+}
+.check-card input[type=checkbox]:checked ~ .check-card-body .check-card-toggle span:first-child {*/to rotate the horizontal line in the toggle to make a minus*/
 	-webkit-transform: rotate(0deg);
 	transform: rotate(0deg);
 }
-.check-card input[type=checkbox]:checked ~ .check-card-bg {
+.check-card input[type=checkbox]:checked ~ .check-card-bg {/*background behaviour on toggle*/
 	-webkit-transform:scale(25);
 	transform:scale(25);
+
 }
-.check-card input[type=checkbox]:checked ~ .check-card-body .check-card-cancel {
+.check-card input[type=checkbox]:checked ~ .check-card-body .check-card-cancel {/* for the cancel word below*/
 	bottom: 30px;
 }
 /*end of promotions*/
@@ -293,10 +306,10 @@ html {
 
 #map{
   height: 180px;
-  /* The height is 400 pixels */
+  /* The height is 180 pixels */
   width: 30%;
   /* The width is the width of the web page */
-  display: inline-block; 
+  display: inline-block;
   vertical-align:top;
 }
 
