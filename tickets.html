@@ -88,42 +88,42 @@
         </div>
         <!--Ticket purchase-->
         <div class="row m-5">
-          <div class="col-12 col-lg-8 mx-auto rounded">
-            <div class="card">
-              <div class="row text-center">
+          <div class="col-12 col-lg-8 mx-auto">
+            <div class="purchase-box">
+              <div class="row date">
                 <section class="form-group mx-auto mt-1">
-                  <label class="control-label" for="date">Choose your date</label>
-                  <input class="form-control" id="date" name="date" type="date"/>
+                  <label for="date">Choose your date</label><br>
+                  <input class="box" id="date" name="date" type="date"/>
                 </section>
               </div>
               <div class="row">
                 <div class="col-12 col-lg-4">
                   <div class="card-body">
-                    <h5 class="card-title">Adult Tickets</h5>
-                    <p class="card-text">Ages: Above 18</p>
-                    <div class="form-group">
-                      <label for="adultTic"><span>Price: <b>$30.00</b></span></label>
-                      <input type="number" class="form-control" id="adultTic" name="adultTic" min="0" max="10" value="0" onchange="total_adult(); all_total();">
+                    <h5>Adult Tickets</h5>
+                    <p>Ages: Above 18</p>
+                    <div>
+                      <label for="adultTic"><span>Price: <b>$30.00</b></span></label><br>
+                      <input type="number" class="box" id="adultTic" name="adultTic" min="0" max="10" value="0" onchange="total_adult(); all_total();">
                   </div>
                   </div>
                 </div>
                 <div class="col-12 col-lg-4">
                   <div class="card-body">
-                    <h5 class="card-title">Youth Tickets</h5>
-                    <p class="card-text">Ages: 12 - 17</p>
-                    <div class="form-group">
-                      <label for="youthTic"><span>Price: <b>$20.00</b></span></label>
-                                <input type="number" class="form-control" id="youthTic" name="youthTic" min="0" max="10" value="0" onchange="total_youth(); all_total();">
+                    <h5>Youth Tickets</h5>
+                    <p>Ages: 12 - 17</p>
+                    <div>
+                      <label for="youthTic"><span>Price: <b>$20.00</b></span></label><br>
+                      <input type="number" class="box" id="youthTic" name="youthTic" min="0" max="10" value="0" onchange="total_youth(); all_total();">
                   </div>
                   </div>
                 </div>
                 <div class="col-12 col-lg-4">
                   <div class="card-body">
-                    <h5 class="card-title">Children Tickets</h5>
-                    <p class="card-text">Ages: Below 12</p>
-                    <div class="form-group">
-                      <label for="childTic"><span>Price: <b>$10.00</b></span></label>
-                      <input type="number" class="form-control" id="childTic" name="childTic" min="0" max="10" value="0" onchange="total_children(); all_total();">
+                    <h5>Children Tickets</h5>
+                    <p>Ages: Below 12</p>
+                    <div>
+                      <label for="childTic"><span>Price: <b>$10.00</b></span></label><br>
+                      <input type="number" class="box" id="childTic" name="childTic" min="0" max="10" value="0" onchange="total_children(); all_total();">
                   </div>
                   </div>
                 </div>
@@ -131,26 +131,26 @@
               <div class="row">
                 <div class="col-12 col-lg-5">
                   <div class="card-body">
-                    <h3 class="card=title">Total Summary</h3>
+                    <h3>Total Summary</h3>
                     <div class="row">
                       <div class="col-auto col-lg-4">
-                        <h5 class="card-text">Adult</h5>
-                        <h5 class="card-text form-control" id="adult_total">$0.00</h5>
+                        <h5>Adult</h5>
+                        <h5 class="box" id="adult_total">$0.00</h5>
                       </div>
                       <div class="col-auto col-lg-4">
-                        <h5 class="card-text">Youth</h5>
-                        <h5 class="card-text form-control" id="youth_total">$0.00</h5>
+                        <h5>Youth</h5>
+                        <h5 class="box" id="youth_total">$0.00</h5>
                       </div>
                       <div class="col-auto col-lg-4">
-                        <h5 class="card-text">Child</h5>
-                        <h5 class="card-text form-control" id="child_total">$0.00</h5>
+                        <h5>Child</h5>
+                        <h5 class="box" id="child_total">$0.00</h5>
                       </div>
                     </div>
 
                     <div class="row">
                       <div class="col mt-2">
-                        <h3 class="card-text">Total Cost</h3>
-                        <h5 class="card-text form-control" id="all_total">$0.00</h5>
+                        <h3>Total Cost</h3>
+                        <h5 class="box" id="all_total">$0.00</h5>
                       </div>
                     </div>
 
@@ -169,7 +169,7 @@
                         <option value="visa">Visa</option>
                         <option value="mastercard">Mastercard</option>
                     </select>
-                    <button type="submit" onclick="booking();" class="btn-sm btn-danger mt-2">Book now</input>
+                    <button type="submit" onclick="booking();" class="mt-2">Book now</input>
                 </form>
                 </div>
               </div>
