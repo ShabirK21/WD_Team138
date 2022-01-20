@@ -45,8 +45,8 @@ html {
     position: relative;
 }
 .card1 img{
-    width: 100%;
-    height:100%;
+    width: 100%; /*width of passes inner image*/
+    height:100%; /*height of passes inner image*/
 
 }
 .descriptions{/* styling for pass details*/
@@ -119,7 +119,7 @@ html {
   background-size: cover;/*ensures abengers background is properly sized in container*/
 	overflow: hidden;/* ensures content that cant fit in the container is not visible*/
 }
-.check-card li label {
+.check-card li label {/*styling of promotions boxes*/
 	display: block;
 	position: absolute;
 	height: 200px;
@@ -154,7 +154,7 @@ html {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
-.check-card .check-card-bg {
+.check-card .check-card-bg {/*interactive design of promotions boxes*/
 	position: absolute;
   background: green;
 	-webkit-transition: all .3s ease-out;
@@ -164,7 +164,7 @@ html {
 	z-index: 0;
 
 }
-.check-card .check-card-toggle span {
+.check-card .check-card-toggle span {/*interactive design of promotions boxes*/
 	position: absolute;
 	display: block;
 	width: 20px;
