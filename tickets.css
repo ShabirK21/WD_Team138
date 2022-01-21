@@ -226,6 +226,7 @@ html {
 }
 /*end of promotions*/
 
+/*Start of navigation bar styling*/
 #logo {
   width: 50%;
   height: 100%;
@@ -253,7 +254,10 @@ html {
   -webkit-text-decoration-color: red; /* Safari */
   text-decoration-color: red;
 }
+/*End of navigation bar styling*/
 
+
+/*Start of purchase block styling*/
 #ticketImg {
   width: 70%;
   height: 10%;
@@ -294,6 +298,7 @@ button{
   color: white;
   padding: 0.5%;
 }
+/*End of purchase block styling*/
 
 /*Footer styling*/
 .SMLImgs img {

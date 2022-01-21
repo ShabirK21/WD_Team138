@@ -7,16 +7,15 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
     <link rel="stylesheet" href="tickets.css"/>
     <title>Tickets</title>
     <link rel="icon" type="image/png" href="Images/mIcon.png">
   </head>
 
+  <!--Beginning of main navigation bar-->
   <body>
     <div class="bg">
-    <!--Main navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top container-fluid">
       <a class="navbar-brand" href="index.html"
         ><img id="logo" src="Images/logo.png" alt="Marvel Logo"
@@ -31,7 +30,6 @@
         aria-label="Toggle navigation"
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <div class="navbar-nav">
           <a class="nav-item nav-link btn mx-2" href="index.html">Home</a>
@@ -41,7 +39,9 @@
       </div>
       </div>
     </nav>
+    <!--End of main navigation bar-->
 
+    <!--Buy tickets image-->
     <main>
       <div class="container-fluid">
         <div class="row">
@@ -49,6 +49,7 @@
             <img src="Images/ticketsIMG.png">
           </div>
         </div>
+
         <!--Passes-->
         <div class="row">
           <div class="col">
@@ -85,16 +86,19 @@
             </div>
           </div>
         </div>
+
         <!--Ticket purchase-->
         <div class="row m-5">
           <div class="col-12 col-lg-8 mx-auto">
             <div class="purchase-box">
               <div class="row date">
                 <section class="form-group mx-auto mt-1">
+                  <!--Interactive calender-->
                   <label for="date">Choose your date</label><br>
                   <input class="box" id="date" name="date" type="date"/>
                 </section>
               </div>
+              <!--Start of choosing of tickets-->
               <div class="row">
                 <div class="col-12 col-lg-4">
                   <div class="card-body">
@@ -127,6 +131,8 @@
                   </div>
                 </div>
               </div>
+              <!--End of choosing of tickets-->
+              <!--Start of tickets summary-->
               <div class="row">
                 <div class="col-12 col-lg-5">
                   <div class="card-body">
@@ -145,16 +151,16 @@
                         <h5 class="box" id="child_total">$0.00</h5>
                       </div>
                     </div>
-
                     <div class="row">
                       <div class="col mt-2">
                         <h3>Total Cost</h3>
                         <h5 class="box" id="all_total">$0.00</h5>
                       </div>
                     </div>
-
                   </div>
                 </div>
+                <!--End of tickets summary-->
+                <!--Start of payment methods-->
                 <div class="col-12 col-lg-7 pb-2 text-center">
                   <figure class="ml-2 mt-5">
                     <img class="paymentImgs" src="Images/NETS.jpg"/>
@@ -171,11 +177,13 @@
                     <button type="submit" onclick="booking();" class="mt-2">Book now</input>
                 </form>
                 </div>
+                <!--End of payment methods-->
               </div>
             </div>
           </div>
         </div>
-        <!--Promotion-->
+
+        <!--Start of promotions-->
         <div class="row">
           <div class="col m-5">
             <header class="passPromotions"><h1>Promotions</h1></header>
@@ -244,6 +252,7 @@
             </div>
       </div>
     </div>
+    <!--End of promotions-->
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -307,8 +316,8 @@
             <header class="pt-3">
               <h3><bold>Contact Us</bold></h3>
             </header>
-            <span>Tel: 123456</span><br />
-            <span>Toll Free: 123456</span><br />
+            <span>Tel: 123456</span><br/>
+            <span>Toll Free: 123456</span><br/>
             <span>Email: customer_service@marvelparks.coom</span>
           </div>
         </div>
