@@ -1,4 +1,4 @@
-// Initialize and add the map
+// Initializing and adding the map
 function initMap() {
   // The location of SIM
   const SIM = { lat: 1.32941, lng: 103.77617 };
