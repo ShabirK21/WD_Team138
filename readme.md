@@ -19,3 +19,5 @@
 2)<https://www.imgworlds.com/language/en/adventurezone/marvel/>
 
 3)<https://www.shanghaidisneyresort.com/en/attractions/marvel-universe/>
+
+### Rides page resources
