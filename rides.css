@@ -36,7 +36,7 @@ html {
 }
 
 .nav-link{
-  font-size: medium;
+  font-size: x-large;
   font-weight: bold;
 }
 
@@ -86,11 +86,8 @@ html {
 
 .column:hover .middle {
   opacity: 1;
-
-
-
 }
-.row{/*detemines margin between rows*/
+.row{/*determines margin between rows*/
   margin: 2%;
 }
 

@@ -27,7 +27,7 @@
         data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
-        aria-label="Toggle navigation"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -39,17 +39,19 @@
       </div>
       </div>
     </nav>
+    
+    <figure class="row">
+      <div class="col-12 my-5 text-center">
+        <img src="Images/ticketsIMG.png" alt="Tickets" class="img-fluid">
+      </div>
+    </figure>
+    
     <!--End of main navigation bar-->
 
     <!--Buy tickets image-->
     <main>
       <div class="container-fluid">
-        <div class="row">
-          <div class="col my-5 text-center">
-            <img src="Images/ticketsIMG.png">
-          </div>
-        </div>
-
+      
         <!--Passes-->
         <div class="row">
           <div class="col">
@@ -174,7 +176,7 @@
                         <option value="visa">Visa</option>
                         <option value="mastercard">Mastercard</option>
                     </select>
-                    <button type="submit" onclick="booking();" class="mt-2">Book now</input>
+                    <button type="submit" onclick="booking();" class="mt-2">Book now</button>
                 </form>
                 </div>
                 <!--End of payment methods-->
@@ -185,73 +187,74 @@
 
         <!--Start of promotions-->
         <div class="row">
-          <div class="col m-5">
-            <header class="passPromotions"><h1>Promotions</h1></header>
-          <div class="wrapper">
-            <ul class="check-card">
-              <li class="check-card-item">
-                <input type="checkbox" id="check01" name="check" value="1">
-                <label for="check01" class="radio"></label>
-                <div class="check-card-bg"></div>
-                <div class="check-card-body">
-                  <div class="check-card-toggle">
-                    <span></span>
-                    <span></span>
+          <div class="col-12 text-center">
+              <header class="passPromotions"><h1>Promotions</h1></header>
+            <div class="wrapper">
+              <ul class="check-card">
+                <li class="check-card-item">
+                  <input type="checkbox" id="check01" name="check" value="1">
+                  <label for="check01" class="radio"></label>
+                  <div class="check-card-bg"></div>
+                  <div class="check-card-body">
+                    <div class="check-card-toggle">
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div class="check-card-body-in" id="holidayPromo">
+                      <h3 class="check-card-title">F&B voucher </h3>
+                      <p class="check-card-description">
+                        When 3 tickets are bought!
+                        Vouchers will be emailed to you upon purchase
+                      </p>
+                    </div>
+                    <div class="check-card-cancel">CANCEL</div>
                   </div>
-                  <div class="check-card-body-in">
-                    <h3 class="check-card-title">F&B voucher </h3>
-                    <p class="check-card-description">
-                      When 3 tickets are bought!
-                      Vouchers will be emailed to you upon purchase
-                    </p>
+                </li>
+              </ul>
+              <ul class="check-card">
+                <li class="check-card-item">
+                  <input type="checkbox" id="check02" onchange="all_total();"name="check" value="1">
+                  <label for="check02" class="radio"></label>
+                  <div class="check-card-bg"></div>
+                  <div class="check-card-body">
+                    <div class="check-card-toggle">
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div class="check-card-body-in" id="studentPromo">
+                      <h3 class="check-card-title">Students Promotion</h3>
+                      <p class="check-card-description">
+                        20% off for students only!
+                      </p>
+                    </div>
+                    <div class="check-card-cancel">CANCEL</div>
                   </div>
-                  <div class="check-card-cancel">CANCEL</div>
-                </div>
-              </li>
-            </ul>
-            <ul class="check-card">
-              <li class="check-card-item">
-                <input type="checkbox" id="check02" onchange="all_total();"name="check" value="1">
-                <label for="check02" class="radio"></label>
-                <div class="check-card-bg"></div>
-                <div class="check-card-body">
-                  <div class="check-card-toggle">
-                    <span></span>
-                    <span></span>
+                </li>
+              </ul>
+              <ul class="check-card">
+                <li class="check-card-item">
+                  <input type="checkbox" id="check03" onchange="all_total();" name="check" value="1">
+                  <label for="check03" class="radio"></label>
+                  <div class="check-card-bg"></div>
+                  <div class="check-card-body">
+                    <div class="check-card-toggle">
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div class="check-card-body-in" id="seniorPromo">
+                      <h3 class="check-card-title">Seniors Promotion</h3>
+                      <p class="check-card-description">
+                        10% off!
+                      </p>
+                    </div>
+                    <div class="check-card-cancel">CANCEL</div>
                   </div>
-                  <div class="check-card-body-in">
-                    <h3 class="check-card-title">Students Promotion</h3>
-                    <p class="check-card-description">
-                      20% off for students only!
-                    </p>
-                  </div>
-                  <div class="check-card-cancel">CANCEL</div>
-                </div>
-              </li>
-            </ul>
-            <ul class="check-card">
-              <li class="check-card-item">
-                <input type="checkbox" id="check03" onchange="all_total();" name="check" value="1">
-                <label for="check03" class="radio"></label>
-                <div class="check-card-bg"></div>
-                <div class="check-card-body">
-                  <div class="check-card-toggle">
-                    <span></span>
-                    <span></span>
-                  </div>
-                  <div class="check-card-body-in">
-                    <h3 class="check-card-title">Seniors Promotion</h3>
-                    <p class="check-card-description">
-                      10% off!
-                    </p>
-                  </div>
-                  <div class="check-card-cancel">CANCEL</div>
-                </div>
-              </li>
-            </ul>
+                </li>
+              </ul>
             </div>
-      </div>
-    </div>
+          </div>
+        </div>
+      </main>
     <!--End of promotions-->
 
     <!--Scripts-->

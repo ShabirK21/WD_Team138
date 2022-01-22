@@ -43,10 +43,9 @@ html {
 }
 
 .nav-link{
-  font-size: medium;
+  font-size: x-large;
   font-weight: bold;
 }
-
 .nav-link:hover {
   text-decoration: underline;
   text-decoration-thickness: 5px;
