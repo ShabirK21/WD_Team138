@@ -114,7 +114,7 @@ html {
 	margin: 0 1% 15px;
 	font-size: 16px;
   box-sizing: border-box;/*gives cards a red border;*/
-  background-image: url("https://wallpaperaccess.com/full/3355901.png");/*background for promotion cards*/
+  background-image: url("Images/promotionsImg.png");/*background for promotion cards*/
   background-position: center;/*centers the avengers background*/
   background-size: cover;/*ensures abengers background is properly sized in container*/
 	overflow: hidden;/* ensures content that cant fit in the container is not visible*/
