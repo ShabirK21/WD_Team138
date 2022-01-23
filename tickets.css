@@ -33,8 +33,6 @@ html {
 }
 .card1{
     float:left;/*ensuring the cards align side by side*/
-    margin: 20px
-    flex: 1;/*Let all the flexible items be the same length, regardless of its content*/
     height: 350px;
     background: #fff;
     border: 2px solid #fff;
@@ -207,12 +205,12 @@ html {
 	-webkit-transform: rotate(0deg);
 	transform: rotate(0deg);
 }
-.check-card input[type=checkbox]:checked ~ .check-card-body .check-card-toggle span {*/to rotate the vertical line in the toggle to make a minus*/
+.check-card input[type=checkbox]:checked ~ .check-card-body .check-card-toggle span {/*to rotate the vertical line in the toggle to make a minus*/
 	-webkit-transform: rotate(0deg);
 	transform: rotate(0deg);
 
 }
-.check-card input[type=checkbox]:checked ~ .check-card-body .check-card-toggle span:first-child {*/to rotate the horizontal line in the toggle to make a minus*/
+.check-card input[type=checkbox]:checked ~ .check-card-body .check-card-toggle span:first-child {/*to rotate the horizontal line in the toggle to make a minus*/
 	-webkit-transform: rotate(0deg);
 	transform: rotate(0deg);
 }
