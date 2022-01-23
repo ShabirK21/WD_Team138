@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="rides.css" />
-     <script src="./rides.js"></script>
+    <script src="./rides.js"></script>
     <title>Rides</title>
     <link
       rel="stylesheet"
@@ -13,318 +13,396 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="rides.css" />
-    <link rel="icon" type="image/png" href="Images/mIcon.png">
+    <link rel="icon" type="image/png" href="Images/mIcon.png" />
   </head>
 
   <body>
-   <div class="bg">
-    <!--Main navigation bar-->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top container-fluid">
-      <a class="navbar-brand" href="index.html"
-        ><img id="logo" src="Images/logo.png" alt="Marvel Logo"
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+    <div class="bg">
+      <!--Main navigation bar-->
+      <nav
+        class="navbar navbar-expand-lg navbar-light sticky-top container-fluid"
       >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <a class="navbar-brand" href="index.html"
+          ><img id="logo" src="Images/logo.png" alt="Marvel Logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link btn mx-2" href="index.html">Home</a>
-          <a class="nav-item nav-link btn active mx-2" href="rides.html">Rides</a>
-          <a class="nav-item nav-link btn mx-2" href="tickets.html">Book Now!</a>
-          <a class="nav-item nav-link btn mx-2" href="#footer">Contact Us</a>
-      </div>
-      </div>
-    </nav>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <div class="navbar-nav">
+            <a class="nav-item nav-link btn mx-2" href="index.html">Home</a>
+            <a class="nav-item nav-link btn active mx-2" href="rides.html"
+              >Rides</a
+            >
+            <a class="nav-item nav-link btn mx-2" href="tickets.html"
+              >Book Now!</a
+            >
+            <a class="nav-item nav-link btn mx-2" href="#footer">Contact Us</a>
+          </div>
+        </div>
+      </nav>
 
-    <!--Start of main Rides Content-->
-    <main>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col mt-3" id="titleImg">
-            <img src="Images/RidesTitle.jpg" alt="Rides title image"/>
+      <!--Start of main Rides Content-->
+      <main>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col mt-3" id="titleImg">
+              <img src="Images/RidesTitle.jpg" alt="Rides title image" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 column">
+              <!--ride 1-->
+              <figure>
+                <img
+                  src="Images/Rides-Img1.jpg"
+                  alt="ride image 1"
+                  class="image"
+                  style="width: 100%"
+                />
+                <div class="middle">
+                  <!--to deal with transitions-->
+                  <div class="text">
+                    <!--to hold text-->
+                    <h1><b>ESCAPE HYDRA</b></h1>
+                    <p>
+                      Quick, use your intelligence and help save Bucky from
+                      HYDRA before he become the Winter Soldier!
+                    </p>
+                    <i>*For ages 13 and up*</i>
+                  </div>
+                </div>
+              </figure>
+            </div>
+            <div class="col-12 col-md-6 column">
+              <figure>
+                <img
+                  src="Images/Rides-Img2.jpg"
+                  alt="ride image 2"
+                  class="image"
+                  style="width: 100%"
+                />
+                <div class="middle">
+                  <div class="text">
+                    <h1><b>QUINRACE</b></h1>
+                    <p>
+                      Take your seat in our one-of-a kind, state-of-the-art,
+                      two-seat Quinjet and and race the Guardians of the Galaxy!
+                    </p>
+                    <i>*Suitable for all ages*</i>
+                  </div>
+                </div>
+              </figure>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 column">
+              <figure>
+                <img
+                  src="Images/Rides-Img3.jpg"
+                  alt="ride image 3"
+                  class="image"
+                  style="width: 100%"
+                />
+                <div class="middle">
+                  <div class="text">
+                    <h1><b>SUIT UP!</b></h1>
+                    <p>
+                      Don the legendary Iron Man suit to protect innocent
+                      civilians in this breathtaking simulation!
+                    </p>
+                    <i>*Minimum height requirement of 1.3m*</i>
+                  </div>
+                </div>
+              </figure>
+            </div>
+            <div class="col-12 col-md-6 column">
+              <figure>
+                <img
+                  src="Images/Rides-Img4.jpeg"
+                  alt="ride image 4"
+                  class="image"
+                  style="width: 100%"
+                />
+                <div class="middle">
+                  <div class="text">
+                    <h1><b>ASGARDIAN HUNT</b></h1>
+                    <p>
+                      Explore Asgard and help Thor find Loki who stole the
+                      Tesseract.
+                    </p>
+                    <i
+                      >*Not recommended for those with light sensitivity due to
+                      strobe lights*</i
+                    >
+                  </div>
+                </div>
+              </figure>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 column">
+              <figure>
+                <img
+                  src="Images/Rides-Img5.jpg"
+                  alt="ride image 5"
+                  class="image"
+                  style="width: 100%"
+                />
+                <div class="middle">
+                  <div class="text">
+                    <h1><b>I AM GROOT</b></h1>
+                    <p>
+                      Help Groot communicate with his fellow inmates and break
+                      them out of jail.
+                    </p>
+                    <i>*Suitable for all ages*</i>
+                  </div>
+                </div>
+              </figure>
+            </div>
+            <div class="col-12 col-md-6 column">
+              <figure>
+                <img
+                  src="Images/Rides-Img6.png"
+                  alt="ride image 6"
+                  class="image"
+                  style="width: 100%"
+                />
+                <div class="middle">
+                  <div class="text">
+                    <h1><b>WEB-SLINGERS!</b></h1>
+                    <p>
+                      Head to the spiderverse and help the Spidermen fight the
+                      multiversal villains.
+                    </p>
+                    <i>*Height requirement of 1.4m*</i>
+                  </div>
+                </div>
+              </figure>
+            </div>
           </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-6 column">
-                  <!--ride 1-->
-                <figure>
-                    <img src="Images/Rides-Img1.jpg" alt="ride image 1" class="image" style="width:100%">
-                    <div class="middle"> <!--to deal with transitions-->
-                    <div class="text"> <!--to hold text-->
-                      <h1><b>ESCAPE HYDRA</b></h1>
-                      <p>Quick, use your intelligence and help save Bucky from HYDRA before he become the Winter Soldier!</p>
-                      <i>*For ages 13 and up*</i>
-                    </div>
-                    </div>
-                </figure>
-            </div>
-            <div class="col-12 col-md-6 column">
-                <figure>
-                    <img src="Images/Rides-Img2.jpg" alt="ride image 2" class="image" style="width:100%">
-                    <div class="middle">
-                    <div class="text">
-                      <h1><b>QUINRACE</b></h1>
-                      <p>Take your seat in our one-of-a kind, state-of-the-art, two-seat Quinjet and and race the Guardians of the Galaxy!</p>
-                      <i>*Suitable for all ages*</i>
-                    </div>
-                    </div>
-                </figure>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6 column">
-                <figure>
-                    <img src="Images/Rides-Img3.jpg" alt="ride image 3" class="image" style="width:100%">
-                    <div class="middle">
-                    <div class="text">
-                      <h1><b>SUIT UP!</b></h1>
-                      <p>Don the legendary Iron Man suit to protect innocent civilians in this breathtaking simulation!</p>
-                      <i>*Minimum height requirement of 1.3m*</i>
-                    </div>
-                    </div>
-                </figure>
-            </div>
-            <div class="col-12 col-md-6 column">
-                <figure>
-                    <img src="Images/Rides-Img4.jpeg" alt="ride image 4" class="image" style="width:100%">
-                    <div class="middle">
-                    <div class="text">
-                      <h1><b>ASGARDIAN HUNT</b></h1>
-                      <p>Explore Asgard and help Thor find Loki who stole the Tesseract.</p>
-                      <i>*Not recommended for those with light sensitivity due to strobe lights*</i>
-                    </div>
-                    </div>
-                </figure>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6 column">
-                <figure>
-                    <img src="Images/Rides-Img5.jpg" alt="ride image 5" class="image" style="width:100%">
-                    <div class="middle">
-                    <div class="text">
-                      <h1><b>I AM GROOT</b></h1>
-                      <p>Help Groot communicate with his fellow inmates and break them out of jail.</p>
-                      <i>*Suitable for all ages*</i>
-                    </div>
-                    </div>
-                </figure>
-            </div>
-            <div class="col-12 col-md-6 column">
-                <figure>
-                    <img src="Images/Rides-Img6.png" alt="ride image 6" class="image" style="width:100%">
-                    <div class="middle">
-                    <div class="text">
-                      <h1><b>WEB-SLINGERS!</b></h1>
-                      <p>Head to the spiderverse and help the Spidermen fight the multiversal villains.</p>
-                      <i>*Height requirement of 1.4m*</i>
-                    </div>
-                    </div>
-                </figure>
-            </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 column">
+          <div class="col-12 col-md-6 column">
             <figure>
-                <img src="Images/Rides-Img7.jpg" alt="ride image 7" class="image" style="width:100%">
-                <div class="middle">
+              <img
+                src="Images/Rides-Img7.jpg"
+                alt="ride image 7"
+                class="image"
+                style="width: 100%"
+              />
+              <div class="middle">
                 <div class="text">
                   <h1><b>ULTRON ESCAPE</b></h1>
-                  <p>Make your way to the Avengers Tower and work with the Avengers to solve puzzles to figure out where Ultron is hiding.</p>
+                  <p>
+                    Make your way to the Avengers Tower and work with the
+                    Avengers to solve puzzles to figure out where Ultron is
+                    hiding.
+                  </p>
                   <i>*For ages 13 and up*</i>
                 </div>
-                </div>
+              </div>
             </figure>
-        </div>
-        <div class="col-12 col-md-6 column">
+          </div>
+          <div class="col-12 col-md-6 column">
             <figure>
-                <img src="Images/Rides-Img8.jpg" alt="ride image 8" class="image" style="width:100%">
-                <div class="middle">
+              <img
+                src="Images/Rides-Img8.jpg"
+                alt="ride image 8"
+                class="image"
+                style="width: 100%"
+              />
+              <div class="middle">
                 <div class="text">
                   <h1><b>ANT FLY</b></h1>
-                  <p>Fly on ants along Antman to save Hank Pym from the Quantum Realm.</p>
+                  <p>
+                    Fly on ants along Antman to save Hank Pym from the Quantum
+                    Realm.
+                  </p>
                   <i>*Suitable for all ages*</i>
                 </div>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </main>
+      <!--End of main Rides Content-->
+
+      <!--Footer-->
+      <footer id="footer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-3 d-none d-md-block" id="contactUs">
+              <div class="row">
+                <div class="col-12">
+                  <!--Large & Above Contact information-->
+                  <h3 class="footHeader text">Contact Us</h3>
+                  <span>Tel: 123456</span><br />
+                  <span>Toll Free: 123456</span><br />
+                  <span>Email: marvelparks@customer_service.com</span>
                 </div>
-            </figure>
-        </div>
-    </div>
-    </main>
-    <!--End of main Rides Content-->
-
-    <!--Start of scripts-->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <!--End of scripts-->
-   </div>
-  </body>
-
-  <!--Footer-->
-  <footer class="footer" id="footer">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-3 d-none d-md-block">
-          <div class="row">
-            <div class="col-12">
-              <!--Large & Above Contact information-->
-              <header class="footHeader text"><h3>Contact Us</h3></header>
-              <span>Tel: 123456</span><br />
-              <span>Toll Free: 123456</span><br />
-              <span>Email: marvelparks@customer_service.com</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <form class="form-inline mt-5">
-                <!--Large & Above Newsletter sign-up-->
-                <header><bold>Sign up for our newsletter:</bold></header>
-                <input
-                  type="email"
-                  class="form-control-sm mr-2"
-                  id="email"
-                  placeholder="you@email.com"
-                  name="email"
-                  required
-                />
-                <button
-                  type="submit"
-                  class="btn-sm btn-secondary"
-                  onclick="newsletter();"
-                >
-                  Sign up
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="row d-block d-md-none">
-          <div class="col">
-            <!--Contact information-->
-            <header class="pt-3">
-              <h3><bold>Contact Us</bold></h3>
-            </header>
-            <span>Tel: 123456</span><br />
-            <span>Toll Free: 123456</span><br />
-            <span>Email: customer_service@marvelparks.coom</span>
-          </div>
-        </div>
-
-        <!--Large & Above Location information-->
-        <div class="col-6 text-center d-none d-md-block" id="address">
-          <header class="footHeader text"><h3>Address</h3></header>
-          <div id="map" class="mb-2">
-            <figure>
-              <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-              <script
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoR0-gkc55oMQC9Lq3ja-lG0SCm1CXFg8&callback=initMap&libraries=&v=weekly"
-                async
-              ></script>
-            </figure>
-          </div>
-          <div id="mapCaption" class="mt-5">
-            <p>
-              Marvel Parks<br />
-              12345 Thor Street<br />
-              Iron Man Road<br />
-              MP54321
-            </p>
-          </div>
-        </div>
-        <div class="row d-block d-md-none">
-          <!--Location information-->
-          <div class="col mt-3">
-            <h3><bold>Address</bold></h3>
-            <p>
-              Marvel Theme Park<br />
-              Iron Man Road<br />
-              13th Thor Street<br />
-              AV421312
-            </p>
-          </div>
-        </div>
-
-        <!--Large & Above Social media-->
-        <div class="col-3 text-center d-none d-md-block" id="socialmedialinks">
-          <header class="footHeader"><h3>Stay Connected</h3></header>
-          <figure class="SMLImgs">
-            <img src="Images/Twitter.png" alt="twitter" />
-            <img src="Images/Youtube.png" alt="youtube" />
-            <img src="Images/Instagram.png" alt="instagram" />
-          </figure>
-          <figure class="SMLImgs">
-            <img src="Images/Pintrest.png" alt="pintrest" />
-            <img src="Images/Facebook.png" alt="facebook" />
-            <img src="Images/Tumblr.png" alt="tumblr" />
-          </figure>
-        </div>
-        <div class="row d-block d-md-none">
-          <div class="col">
-            <!--Social media-->
-            <h3><bold>Stay Connected</bold></h3>
-            <figure class="xsSML">
-              <img src="Images/Twitter.png" alt="twitter" />
-              <img src="Images/Youtube.png" alt="youtube" />
-              <img src="Images/Instagram.png" alt="instagram" />
-            </figure>
-            <figure class="xsSML">
-              <img src="Images/Pintrest.png" alt="pintrest" />
-              <img src="Images/Facebook.png" alt="facebook" />
-              <img src="Images/Tumblr.png" alt="tumblr" />
-            </figure>
-          </div>
-        </div>
-        <div class="row d-block d-sm-none">
-          <div class="col">
-            <div class="row">
-              <!--Newsletter sign-up-->
-              <div class="col">
-                <span class="px-1">Sign up for newsletter:</span>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <form class="form-inline mt-5">
+                    <!--Large & Above Newsletter sign-up-->
+                    <h3>Sign up for our newsletter:</h3>
+                    <input
+                      type="email"
+                      class="form-control-sm mr-2"
+                      id="email"
+                      placeholder="you@email.com"
+                      name="email"
+                      required
+                    />
+                    <button
+                      type="submit"
+                      class="btn-sm btn-secondary"
+                      onclick="newsletter();"
+                    >
+                      Sign up
+                    </button>
+                  </form>
+                </div>
               </div>
             </div>
-            <form class="form-inline mb-2">
-              <input
-                type="email"
-                class="form-control-sm mr-2"
-                id="email"
-                placeholder="you@email.com"
-                name="email"
-                required
-              />
-              <button
-                type="submit"
-                class="btn-sm btn-secondary"
-                onclick="newsletter();"
-              >
-                Sign up
-              </button>
-            </form>
+            <div class="row d-block d-md-none">
+              <div class="col">
+                <!--Contact information-->
+                <h3 class="pt-3">Contact Us</h3>
+                <span>Tel: 123456</span><br />
+                <span>Toll Free: 123456</span><br />
+                <span>Email: customer_service@marvelparks.coom</span>
+              </div>
+            </div>
+
+            <!--Large & Above Location information-->
+            <div class="col-6 text-center d-none d-md-block" id="address">
+              <h3 class="footHeader text">Address</h3>
+              <div id="map" class="mb-2">
+                <figure>
+                  <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+                  <script
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoR0-gkc55oMQC9Lq3ja-lG0SCm1CXFg8&callback=initMap&libraries=&v=weekly"
+                    async
+                  ></script>
+                </figure>
+              </div>
+              <div id="mapCaption" class="mt-5">
+                <p>
+                  Marvel Parks<br />
+                  12345 Thor Street<br />
+                  Iron Man Road<br />
+                  MP54321
+                </p>
+              </div>
+            </div>
+            <div class="row d-block d-md-none">
+              <!--Location information-->
+              <div class="col mt-3">
+                <h3>Address</h3>
+                <p>
+                  Marvel Theme Park<br />
+                  Iron Man Road<br />
+                  13th Thor Street<br />
+                  AV421312
+                </p>
+              </div>
+            </div>
+
+            <!--Large & Above Social media-->
+            <div
+              class="col-3 text-center d-none d-md-block"
+              id="socialmedialinks"
+            >
+              <h3 class="footHeader">Stay Connected</h3>
+              <figure class="SMLImgs">
+                <img src="Images/Twitter.png" alt="twitter" />
+                <img src="Images/Youtube.png" alt="youtube" />
+                <img src="Images/Instagram.png" alt="instagram" />
+              </figure>
+              <figure class="SMLImgs">
+                <img src="Images/Pintrest.png" alt="pintrest" />
+                <img src="Images/Facebook.png" alt="facebook" />
+                <img src="Images/Tumblr.png" alt="tumblr" />
+              </figure>
+            </div>
+            <div class="row d-block d-md-none">
+              <div class="col">
+                <!--Social media-->
+                <h3>Stay Connected</h3>
+                <figure class="xsSML">
+                  <img src="Images/Twitter.png" alt="twitter" />
+                  <img src="Images/Youtube.png" alt="youtube" />
+                  <img src="Images/Instagram.png" alt="instagram" />
+                </figure>
+                <figure class="xsSML">
+                  <img src="Images/Pintrest.png" alt="pintrest" />
+                  <img src="Images/Facebook.png" alt="facebook" />
+                  <img src="Images/Tumblr.png" alt="tumblr" />
+                </figure>
+              </div>
+            </div>
+            <div class="row d-block d-sm-none">
+              <div class="col">
+                <div class="row">
+                  <!--Newsletter sign-up-->
+                  <div class="col">
+                    <span class="px-1">Sign up for newsletter:</span>
+                  </div>
+                </div>
+                <form class="form-inline mb-2">
+                  <input
+                    type="email"
+                    class="form-control-sm mr-2"
+                    id="nEmail"
+                    placeholder="you@email.com"
+                    name="email"
+                    required
+                  />
+                  <button
+                    type="submit"
+                    class="btn-sm btn-secondary"
+                    onclick="newsletter();"
+                  >
+                    Sign up
+                  </button>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+        <script src="index.js"></script>
+      </footer>
     </div>
-    <script src="index.js"></script>
-  </footer>
+    <!--Bootstrap JavaScrip Import-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
