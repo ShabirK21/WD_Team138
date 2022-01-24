@@ -10,6 +10,7 @@ html {
   height: 100%;
 }
 
+/* Styling of background image*/
 .bg {
   background-image: url("Images/BG-Home.jpg");
   background-repeat: no-repeat;
@@ -35,13 +36,6 @@ html {
   height: 20%;
 }
 
-/*Introduction video styling*/
-#introVid video {
-  display: block;
-  width: 100%;
-  object-fit: fill;
-}
-
 .nav-link{
   font-size: x-large;
   font-weight: bold;
@@ -51,6 +45,13 @@ html {
   text-decoration-thickness: 5px;
   -webkit-text-decoration-color: red; /* Safari */
   text-decoration-color: red;
+}
+
+/*Introduction video styling*/
+#introVid video {
+  display: block;
+  width: 100%;
+  object-fit: fill;
 }
 
 /*Main content styling*/
@@ -87,6 +88,7 @@ html {
   height: 500px;
 }
 
+/*Slideshow styling*/
 .carousel-caption {
   bottom: -95px;
   left: 0;
@@ -117,6 +119,7 @@ html {
   cursor: pointer;
 }
 
+/*Promotions & Deals styling*/
 .flip-card {
   width: 100%;
   height: 300px;

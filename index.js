@@ -14,7 +14,7 @@ function initMap() {
     map: map
   });
 }
-//to handle async promise errors
+// to handle async promise errors
 function myFunctionThatCatches() {
   try {
     return initMap();
@@ -36,7 +36,7 @@ async function run() {
 
 run();
 
-//Function checking if email was entered for newsletter
+// Function checking if email was entered for newsletter
 function newsletter() {
   if (document.getElementById('email').value === '') {
     alert('Please input a valid email address');
